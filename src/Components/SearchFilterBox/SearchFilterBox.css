@@ -1,0 +1,31 @@
+.SearchBoxContainer{
+    background-color: var(--dark-gray);
+    max-width: 100%;
+    min-height: calc(100% - 48px);
+    max-height: calc(100% - 48px);
+    height: 100px;
+    padding: 24px;
+    margin-left: 0px;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.SearchInput{
+    height: 32px;
+    border: 2px var(--gray) solid;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 4px 0px 4px 4px;
+    font: 400 16px "Segoe UI";
+    width: 100%;
+    outline: none;
+    margin-bottom: 8px;
+}
+
+.SearchInput:focus, .SearchInput:focus:hover{
+    border: 2px var(--green) solid;
+}
+
+.SearchInput:hover{
+    border: 2px var(--light-gray) solid;
+}

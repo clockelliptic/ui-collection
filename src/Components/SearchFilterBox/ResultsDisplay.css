@@ -1,0 +1,24 @@
+.ResultsDisplayContainer{
+    background: none;
+    width: 100%;
+    max-height: inherit;
+    padding: 4px 0 0 0;
+}
+
+.ResultsCategoryLabel{
+    font: 400 1.4em "Segoe UI";
+    color: var(--purple);
+}
+
+.ResultsItem{
+    font: 200 16px "Segoe UI";
+    color: var(--white);
+}
+
+.ResultName{
+    display: inline-block;
+}
+
+.ResultPrice{
+    float: right;
+}

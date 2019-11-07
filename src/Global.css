@@ -1,0 +1,103 @@
+/*                  */ /*                  */ /*                  */
+/* COLOR PALETTE */
+/*                  */ /*                  */ /*                  */
+:root {
+  --purple: #b200ff;
+  --green: #09d3ac;
+  --white: #f4f4f4;
+  --black:#101010;
+  --dark-gray:#161616;
+  --gray: #545454;
+  --light-gray: #848484;
+}
+
+.purple {
+  background: var(--purple);
+}
+
+.dark-gray {
+  background: var(--dark-gray);
+}
+
+.gray {
+  background: var(--gray);
+}
+
+.light-gray {
+  background: var(--light-gray);
+}
+
+.green {
+  background: var(--green);
+}
+
+.black {
+  background: var(--black);
+}
+
+.white {
+  background: var(--white);
+}
+
+
+/*                  */ /*                  */ /*                  */
+/* LAYOUT PROPERTIES / STYLES */
+/*                  */ /*                  */ /*                  */
+body {
+  background-color: var(--black);
+  overflow-x: hidden;
+}
+
+.grid-box {
+  display: inline-block;
+  align-content: inherit;
+}
+
+.grid-content {
+  padding: 12px;
+}
+
+
+/*                  */ /*                  */ /*                  */
+/* ALIGNMENT STYLES */
+/*                  */ /*                  */ /*                  */
+.centered-text {
+  text-align: center;
+}
+
+.vertical-center{
+  position: absolute;
+}
+
+.vertical-center-container{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+/*                  */ /*                  */ /*                  */
+/* CUSTOM SCROLLBAR */
+/*                  */ /*                  */ /*                  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-gray);
+}
+
+::-webkit-scrollbar-corner {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222;
+}

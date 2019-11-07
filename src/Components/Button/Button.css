@@ -1,0 +1,29 @@
+.Button {
+    color: var(--white);
+    font: 400 16px "Segoe UI";
+
+    background-color: var(--dark-gray);
+    outline: none;
+    border: 2px solid var(--gray);
+    overflow: hidden;
+
+    min-height: 36px;
+    display: block;
+    position: relative;
+    padding: 8px 26px 8px 26px;
+
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    transition: all .25s;
+}
+
+
+.Button:hover {
+    /*background-color: var(--purple);
+    color: var(--green);*/
+    border: 2px solid var(--light-gray);
+    transition: all 0.0s;
+}

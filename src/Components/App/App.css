@@ -1,0 +1,86 @@
+.App-logo{
+  padding-top:5px;
+  border: 0px solid white;
+  margin-left: -3px;
+  color: var(--green);
+}
+
+.App-logo img {
+  animation: App-logo-glow infinite 3s ease-in-out;
+  height: 37px;
+  pointer-events: all;
+  transition: all 0.4s;
+}
+
+.App-logo:hover img {
+  animation: none;
+  animation: App-logo-spin infinite 3s linear;
+  opacity: 1.0;
+  transition: all 0.4s;
+}
+
+.App-logo .App-logo-border {
+  opacity: 0.0;
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  margin-left: -3px;
+  margin-top: -2px;
+  border: 2px solid var(--green);
+  border-radius: 100%;
+  transition: all 1.6s;
+}
+
+.App-logo:hover .App-logo-border {
+  animation: App-logo-border-glow infinite 1.5s;
+  opacity: 0.85;
+  transition: all 0.4s;
+}
+
+@keyframes App-logo-glow {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-border-glow {
+  0% {
+    box-shadow: 0 0 1px 1px rgba(30, 255, 215, .0), inset 0 0 1px 1px rgba(30, 255, 215, .0);
+  }
+  67% {
+    box-shadow: 0 0 3px 3px rgba(30, 255, 215, .3), inset 0 0 1px 1px rgba(30, 255, 215, .3);
+  }
+  100% {
+    box-shadow: 0 0 1px 1px rgba(30, 255, 215, .0), inset 0 0 1px 1px rgba(30, 255, 215, .0);
+  }
+}
+
+.App-header {
+  background-color: var(--black);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--white);
+}
+
+.App-link {
+  color: var(--green);
+}
