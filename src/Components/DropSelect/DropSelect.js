@@ -3,12 +3,12 @@ import './DropSelect.css';
 import { Select, } from 'grommet';
 
 
-function DropSelect() {
-    const [value, setValue] = React.useState('medium');
+function DropSelect(props) {
+    const [value, setValue] = React.useState(props.placeholder);
     return (
       <Select
-        style={{"font-weight": '400'}}
-        options={['small', 'medium', 'large']}
+        style={{"fonWeight": '400'}}
+        options={props.options}
         value={value}
         onChange={({ option }) => setValue(option)}
       />

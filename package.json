@@ -5,12 +5,14 @@
   "dependencies": {
     "@bit/grommet.grommet.responsive-context": "^2.6.5",
     "grommet": "^2.7.11",
+    "jquery": "^3.4.1",
     "jss": "^10.0.0",
     "jss-preset-default": "^10.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-grid-layout": "^0.17.1",
     "react-jss": "^10.0.0",
+    "react-particles-js": "^2.7.0",
     "react-scripts": "3.2.0",
     "styled-components": "^4.4.1"
   },

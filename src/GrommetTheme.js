@@ -195,7 +195,7 @@ export const theme = {
       },
       "input": {
         "padding": "12px",
-        "weight": 700
+        "weight": 700,
       },
       "opacity": {
         "strong": 0.8,
@@ -204,7 +204,7 @@ export const theme = {
       },
       "selected": {
         "background": "selected",
-        "color": "white"
+        "color": "black"
       },
       "spacing": "24px",
       "size": {
@@ -232,7 +232,7 @@ export const theme = {
       "color": "#eeeeee",
       "colors": {
         "active": "rgba(102,102,102,0.5)",
-        "background": "#111111",
+        "background": "black",
         "black": "#000000",
         "border": "rgba(255,255,255,0.33)",
         "brand": "#FD6FFF",
