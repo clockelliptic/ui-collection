@@ -747,7 +747,7 @@ export const theme = {
           "margin": "none"
         }
       },
-      "step": 20
+      "step": 20,
     },
     "tab": {
       "active": {

@@ -1,9 +1,17 @@
 import React from 'react';
 import styled, { keyframes, css } from 'styled-components'
 
+/*
+ * MODULE USAGE:
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
 export const Sol = styled.div`
-    top: 10%;
-    left: 31%;
     position: absolute;
     transform-style: preserve-3d;
     transform: perspective(100px) translateZ(1.5px);
@@ -12,7 +20,7 @@ export const Sol = styled.div`
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    background: rgba(255,255,255,0.9);
+    background: rgba(0,0,0,1.0);
     box-shadow:
         inset 0 0 50px #fff,      /* inner white */
         inset 20px 0 80px #f0f,   /* inner left magenta short */
@@ -64,14 +72,12 @@ export const Orbital = (diameter=40, orbit_radius=300, phaseShift=0, tiltZ=0, in
     const N_FRAMES = 75;
     const orbit = orbit_keyframe_factory(N_FRAMES, orbit_radius, phaseShift, tiltZ);
     const scale = 1 + Math.sin(phaseShift/2)*Math.sin(phaseShift/2)
-    const period = Math.floor((15+Math.random()*initial_velocity)/*sec*/ * ((orbit_radius**2)/(Math.sqrt(diameter/10)*300**2)) ) //seconds; note that 300 is the default radius
+    const period = Math.floor((35+Math.random()*initial_velocity)/*sec*/ * ((orbit_radius**2)/(Math.sqrt(diameter/10)*300**2)) ) //seconds; note that 300 is the default radius
 
     return styled.div`
         transform: perspective(100px) translateZ(1.6px) translateX(${Math.floor(orbit_radius * Math.sin(phaseShift))}) scaleX(${scale}) scaleY(${scale});
         position: absolute;
         text-align: center;
-        top: ${10+Math.floor(Math.random()*30)}%;
-        left: 33%;
         color: white;
         width: ${diameter}px;
         height: ${diameter}px;
@@ -96,15 +102,16 @@ export const OrbitalSystem = (N) => Array(N).fill().map(() => RandomOrbital())
 
 
 export const OrbitalContainer = styled.div`
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.92);
     position: fixed;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
     height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     transform-style: preserve-3d;
-    outline: 0px solid rgba(255,255,255,0.2);
     z-index: 1;
 `;
 

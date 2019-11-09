@@ -56,14 +56,14 @@ export const params = {
         "enable": true,
         "speed": 1,
         "direction": "top-right",
-        "random": true,
+        "random": false,
         "straight": true,
         "out_mode": "out",
         "bounce": false,
         "attract": {
-          "enable": true,
-          "rotateX": 10000,
-          "rotateY": 10000
+          "enable": false,
+          "rotateX": 0,
+          "rotateY": 0
         }
       }
     },
@@ -76,23 +76,23 @@ export const params = {
         },
         "onclick": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "bubble"
         },
         "resize": true
       },
       "modes": {
         "grab": {
-          "distance": 100,
+          "distance": 150,
           "line_linked": {
-            "opacity": 0.23841429828095081
+            "opacity": 0.35
           }
         },
         "bubble": {
           "distance": 250,
-          "size": 0,
-          "duration": 2,
-          "opacity": 0,
-          "speed": 3
+          "size": 2,
+          "duration": 0.5,
+          "opacity": 1,
+          "speed": 0.1
         },
         "repulse": {
           "distance": 100,

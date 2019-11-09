@@ -28,7 +28,7 @@ class MyResponsiveGrid extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      showOrbitalSystem: false,
+      showOrbitalSystem: true,
     }
   }
 
@@ -109,15 +109,15 @@ const TopBar = (props) => (
 
 const FilterBar = () => (
     <Box
-    tag='header'
-    direction='row'
-    align='center'
-    justify='between'
-    background='none'
-    width="100%"
-    height="100%"
-    pad={{ vertical: 'small', horizontal: 'medium' }}
-  >
+      tag='header'
+      direction='row'
+      align='center'
+      justify='between'
+      background='none'
+      width="100%"
+      height="100%"
+      pad={{ vertical: 'small', horizontal: 'medium' }}
+    >
     <DropSelect options={["hi", "bye"]} placeholder="Select Category" />
     <div className="black" style={{"width":"100%", "marginLeft":"4px"}}>
       <TextInput placeholder="Filter Search..." />
