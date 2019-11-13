@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { keyframes, css } from 'styled-components'
+import styled from 'styled-components'
 
 const Splash = styled.div`
     position: fixed;
@@ -9,8 +9,7 @@ const Splash = styled.div`
     right: 0;
     height: 100%;
     transform-style: preserve-3d;
-    outline: 0px solid rgba(255,255,255,0.2);
-    z-index: 1;
+    z-index: 99999;
 `;
 
 

@@ -4,32 +4,41 @@ import React from 'react';
 import './App.css';
 import { Responsive, WidthProvider } from 'react-grid-layout';
 import { Box, TextInput, } from 'grommet';
+import styled from 'styled-components';
 
 /* BUILT COMPONENTS */
 import { SearchFilterBox } from '../SearchFilterBox/SearchFilterBox'
-import Button from '../Button/Button'
 import DropSelect from '../DropSelect/DropSelect'
 import { FilterBar as _FilterBar } from '../FilterBar/FilterBar'
-import Orbit from '../Orbit/Orbit'
+import SolarSystem from '../Orbit/Orbit'
 import FadeContainer from '../Containers/Fade'
 import Splash from '../Containers/Splash'
+import { Landing } from '../Landing/Landing'
+
+import Portfolio from '../Portfolio/Portfolio'
 
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
-function App() {
-  return (
-      <MyResponsiveGrid />
-  );
-}
-
-
-class MyResponsiveGrid extends React.Component {
+class App extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      showOrbitalSystem: true,
+      showOrbitalSystem: false,
+      landing: () => <Landing />,
+      portfolio: () => <Portfolio />,
+      mainDisplayContent: () => undefined,
     }
+
+    this.setMainDisplayContent = this.setMainDisplayContent.bind(this)
+  }
+
+  componentDidMount(){
+    if (!this.state.mainDisplayContent()) this.setState({mainDisplayContent: this.state.landing})
+  }
+
+  setMainDisplayContent(content){
+    this.setState({mainDisplayContent: content})
   }
 
   showOrbitalSystem() {
@@ -38,79 +47,79 @@ class MyResponsiveGrid extends React.Component {
 
   hideOrbitalSystem(fadeOut) {
     setTimeout(() => {this.setState({showOrbitalSystem: false})}, 0)
-
-    /* Currently broken:
-        fadeOut() animation causes OrbitalSystem's contiainer to remount,
-         which restarts the animation.
-    */
-    //fadeOut();
   }
 
   render() {
-    const layouts = {
-      lg: [
-        {i: 'TopBar', x: 0, y: 0, w: 12, h: 6, static:true},
-        {i: 'FilterBar', x: 0, y: 6, w: 12, h: 6, static:true},
-        {i: 'SearchPanel', x: 0, y: 12, w: 2.4, h: 60, static:true},
-        {i: 'Display', x: 3, y: 12, w: 9.6, h: 60, static:true},
-        {i: 'Footer', x: 6, y: 72, w: 12, h: 10, static:true}
-      ],
-      md: [
-        {i: 'TopBar', x: 0, y: 0, w: 12, h: 6, static:true},
-        {i: 'FilterBar', x: 0, y: 6, w: 12, h: 6, static:true},
-        {i: 'SearchPanel', x: 0, y: 12, w: 0, h: 0, static:true},
-        {i: 'Display', x: 0, y: 12, w: 9.6, h: 60, static:true},
-        {i: 'Footer', x: 6, y: 72, w: 12, h: 10, static:true}
-      ],
-    }
+    const isLanding = (this.state.mainDisplayContent===this.state.landing)
 
-    const OrbitalSplash = (props) => <Orbit onExit={ this.hideOrbitalSystem.bind(this, props.onHide) }  N={8} />
-
+    const OrbitalSplash = (props) => <SolarSystem onExit={ this.hideOrbitalSystem.bind(this, props.onHide) }  N={8} />
+    const AppContainer = MainAppContainer(isLanding)
+    const TopBar = AppBarContainer(isLanding)
     return (
-      <div>
+      <AppContainer>
+        {(this.state.showOrbitalSystem) ? <Splash><FadeContainer children={OrbitalSplash} /></Splash> : ""}
 
-      {(this.state.showOrbitalSystem) ? <FadeContainer children={OrbitalSplash} /> : ""}
 
-      <ResponsiveGridLayout
-        rowHeight={1}
-        align="left"
-        alignContent="left"
-        className="layout"
-        layouts={layouts}
-        breakpoints={{lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0}}
-        cols={{lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}}>
-        <div key="TopBar" className="dark-gray grid-box"><TopBar onLogoClick={this.showOrbitalSystem.bind(this)} /></div>
-        <div key="FilterBar" className="dark-gray grid-box"><FilterBar /></div>
-        <div key="SearchPanel" className="dark-gray grid-box"><SearchFilterBox /></div>
-        <div key="Display" className="dark-gray grid-box"><Display /></div>
-        <div key="Footer" className="dark-gray grid-box"><div className="grid-content"><Button /></div></div>
+        <TopBar key="AppBar">
+          <AppBar onLogoClick={this.showOrbitalSystem.bind(this)} />
+        </TopBar>
 
-      </ResponsiveGridLayout>
-      </div>
+        <Spacer />
+
+
+        <DisplayContainer>
+          <Display key="Display">
+            {this.state.mainDisplayContent()}
+          </Display>
+        </DisplayContainer>
+
+      </AppContainer>
     )
   }
 }
 
-const TopBar = (props) => (
+const MainAppContainer = (landing) => styled.div`
+    position: fixed;
+    bottom: 0;
+    top: ${(landing?'0':'10%')};
+    left: 0;
+    right: 0;
+    height: 100%;
+    overflow-y: ${(landing)?'hidden':'auto'};
+    overflow-x: hidden;
+`;
+
+const AppBarContainer = (landing) => styled.div`
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 60px;
+  height: 10%;
+  position: fixed;
+  background: var(--dark-gray);
+  z-index: 100;
+  display: ${(landing)?'none':'auto'}
+`;
+
+const AppBar = (props) => (
   <Box
-    tag='header'
     direction='row'
     align='center'
-    justify='between'
     background='none'
     width="100%"
     height="100%"
+    overflow="hidden"
+    position="absolute"
     pad={{ vertical: 'small', horizontal: 'medium' }}
+    border={{"color":"var(--medium-gray)", "side":"bottom"}}
   >
     <div className="App-logo" onClick={props.onLogoClick} ><div className="App-logo-border"></div><img src={logo} alt="logo" /></div>
-    Home
+    <FilterBar /> Browse Projects / About / Connect
   </Box>
 );
 
 const FilterBar = () => (
-    <Box
-      tag='header'
-      direction='row'
+    <Box direction='row'
       align='center'
       justify='between'
       background='none'
@@ -125,19 +134,22 @@ const FilterBar = () => (
 </Box>
 );
 
-const Display = () => (
-  <Box
-  tag='header'
-  direction='column'
-  align='center'
-  justify='between'
-  background='none'
-  width="100%"
-  height="100%"
-  pad={{ vertical: 'small', horizontal: 'medium' }}
->
-  <p>{FILLER_TEXT}</p>
-</Box>
-);
+const Spacer = styled.div`
+  height: 10%
+  min-height : 60px;
+  position: absolute;
+  display: inline-block;
+`;
+
+const DisplayContainer = styled.div`
+  width: 100%;
+  height: 100%;
+`;
+
+const Display = styled.div`
+  width: 100%;
+  height: 100%;
+`;
+
 
 export default App;

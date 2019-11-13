@@ -1,13 +1,12 @@
 import React from 'react';
 import './Orbit.css'
-import styled, { keyframes, css } from 'styled-components'
+import styled from 'styled-components'
 import Particles from 'react-particles-js'
 import { params as particles_config } from './particles-config'
-import heimerdinger from '../../heimerdinger.png'
 import { OrbitalContainer, Sol, OrbitalSystem } from './OrbitalFactory'
-import { fadeIn, fadeOut } from '../Containers/Fade'
+import { fadeIn } from '../Containers/Fade'
 
-class Orbit extends React.Component {
+export default class SolarSystem extends React.Component {
     constructor(props){
         super(props)
         this.state = {
@@ -28,14 +27,19 @@ class Orbit extends React.Component {
                     <Sol onClick={this.onExit.bind(this)} />
                     {OrbitalSystem(this.state.N).map((Planet, i) => <Planet key={i} />)}
                 </Tilt>
+                <Heading>
+                    {this.state.heading || "Hi, I'm Allen."}
+                </Heading>
                 <Message>
-                    {this.state.message || "Hello, citizen of the galaxy."}
+                    {this.state.message || "Web designer, programmer, and math buff. I have experience ranging from mathematics, statistics, and machine learning, to UI design and scripting in Python and Javascript."}
                 </Message>
                 <Space />
             </OrbitalContainer>
         );
     }
 }
+
+const Space = () => <Particles params={particles_config} />
 
 const Tilt = styled.div`
     /* This tilts itself and its children elements to the specified transform angle. */
@@ -46,31 +50,22 @@ const Tilt = styled.div`
     transform: rotate(-33deg);
 `;
 
-
-const Space = () => <Particles params={particles_config} />
-
-const Message = styled.div`
+const Heading = styled.div`
     margin-left: -30%;
     line-height: 100%;
     position: absolute;
     top: 55%;
     left: 50%;
     font-size: 7vh;
-    animation: fadeIn 1 2s linear;
+    animation: ${fadeIn} 1 5s linear;
 `;
 
-const Heimerdinger = () => {
-    const Heimer = styled.div`
-        position: absolute;
-        background-image: url(${heimerdinger});
-        background-size: 100% 100%;
-        width: 200px;
-        height: 200px;
-        bottom: 5%;
-        right: 5%;
-        opacity: 0.8;
-    `;
-    return <Heimer />
-}
-
-export default Orbit;
+const Message = styled.div`
+    margin-left: -30%;
+    line-height: 100%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-size: 3vh;
+    animation: ${fadeIn} 1 5s linear;
+`;

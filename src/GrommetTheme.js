@@ -1,5 +1,5 @@
-export const FILLER_TEXT = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
-
+import { CaretNext } from 'grommet-icons'
+export const FILLER_TEXT = "Another world cosmic fugue gathered by gravity hundreds of thousands prime number tendrils of gossamer clouds? Orion's sword how far away star stuff harvesting star light descended from astronomers network of wormholes made in the interiors of collapsing stars. From which we spring bits of moving fluff paroxysm of global death bits of moving fluff realm of the galaxies courage of our questions? Vanquish the impossible two ghostly white figures in coveralls and helmets are soflty dancing concept of the number one a mote of dust suspended in a sunbeam descended from astronomers vastness is bearable only through love and billions upon billions upon billions upon billions upon billions upon billions upon billions."
 export const theme = {
     "global": {
       "colors": {
@@ -18,9 +18,10 @@ export const theme = {
 
         "purple": "#b200ff",
         "green": "#09d3ac",
-        "white": "#f4f4f4",
+        "white": "#f9f9f9",
         "black": "#101010",
         "dark-gray":"#161616",
+        "medium-gray":"#363636",
         "gray": "#545454",
         "light-gray": "#848484",
 
@@ -32,7 +33,7 @@ export const theme = {
         "focus": "#FFCA58",
         "placeholder": "#AAAAAA",
         "selected": "green",
-        "text": "#eeeeee",
+        "text": "#f9f9f9",
         "white": "#FFFFFF",
         "accent-1": "#FD6FFF",
         "accent-2": "#60EB9F",
@@ -311,7 +312,11 @@ export const theme = {
       }
     },
     "carousel": {
-      "icons": {}
+      "icons": {
+      },
+      "animation": {
+        "duration": 400
+      }
     },
     "chart": {},
     "checkBox": {

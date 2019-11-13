@@ -4,9 +4,10 @@
 :root {
   --purple: #b200ff;
   --green: #09d3ac;
-  --white: #f4f4f4;
+  --white: #f9f9f9;
   --black:#101010;
   --dark-gray:#161616;
+  --medium-gray: #363636;
   --gray: #545454;
   --light-gray: #848484;
 }
@@ -45,7 +46,8 @@
 /*                  */ /*                  */ /*                  */
 body {
   background-color: var(--black);
-  overflow-x: hidden;
+  /*overflow-x: hidden;
+  overflow-y: hidden;*/
 }
 
 .grid-box {
