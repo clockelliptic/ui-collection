@@ -2,12 +2,12 @@ import { svg } from './brainheart.svg'
 
 export const params = {
     "polygon": {
-      "enable": true,
+      "enable": false,
       "type": "inside",
       "move": {
           "radius": 10
         },
-      "url": `${svg}`,
+      "url": "https://raw.githubusercontent.com/clockelliptic/ui-collection/master/src/Components/Landing/brainheart.svg",
       "scale": 10,
       "draw": {
         "enable": true,
@@ -19,14 +19,14 @@ export const params = {
     },
     "particles": {
       "number": {
-        "value": 160,
+        "value": 30,
         "density": {
           "enable": true,
           "value_area": 600
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#FFEEDD"
       },
       "shape": {
         "type": "circle",
@@ -48,13 +48,13 @@ export const params = {
         "random": true,
         "anim": {
           "enable": true,
-          "speed": 0.5,
+          "speed": 2,
           "opacity_min": 0,
           "sync": false
         }
       },
       "size": {
-        "value": 1.6,
+        "value": 7.6,
         "random": true,
         "anim": {
           "enable": true,
@@ -65,23 +65,28 @@ export const params = {
       },
       "line_linked": {
         "enable": false,
-        "distance": 150,
-        "color": "#ffffff",
-        "opacity": 0.4,
-        "width": 1
+        "distance": 265,
+        "color": "#FF50AA",
+        "opacity": 0.3,
+        "width": 1,
+        "shadow": {
+          "enable": false,
+          "color": "#FFA0CC",
+          "opacity": 0.5,
+        }
       },
       "move": {
         "enable": true,
         "speed": 1,
-        "direction": "top-right",
-        "random": false,
+        "direction": "bottom",
+        "random": true,
         "straight": true,
         "out_mode": "out",
         "bounce": false,
         "attract": {
-          "enable": false,
-          "rotateX": 0,
-          "rotateY": 0
+          "enable": true,
+          "rotateX": 999,
+          "rotateY": 999
         }
       }
     },
@@ -90,7 +95,7 @@ export const params = {
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "bubble"
         },
         "onclick": {
           "enable": true,

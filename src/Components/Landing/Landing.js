@@ -6,6 +6,7 @@ import GoldImage from './gold.jpg'
 import Terminal from './Terminal'
 import SolarSystem from '../Orbit/Orbit'
 import { Hearticle } from './Hearticle'
+import Flowers from './flowers.jpg'
 
 export const Landing = () => (
 <BackgroundWrapper>
@@ -19,9 +20,8 @@ export const Landing = () => (
         <ReactFullpage.Wrapper>
 
                 <Hello className="section">
-                    <h1>Hi, I'm Message.</h1>
-                    <HelloMessage>Web designer, programmer, and math buff. I have experience ranging from mathematics, statistics, and machine learning, to UI design and scripting in Python and Javascript.</HelloMessage>
                     <Hearticle />
+                    <HelloMessage>Hello</HelloMessage>
                 </Hello>
 
                 <Developer className="section">
@@ -60,19 +60,22 @@ const BackgroundWrapper = styled.div`
 `;
 
 const Hello = styled.div`
-    position: absolute;
-    color: #000;
-    text-align: center;
-    font-size: 1.5em;
-    line-height: 1.5em;
     width: 100%;
-    background:linear-gradient(#AFE, #FAC);
+    background-image: url(${Flowers});
 `;
 
 const HelloMessage = styled.div`
-    width: 55%;
-    margin-left: auto;
-    margin-right: auto;
+    color: #FFF;
+    position: absolute;
+    text-align: left;
+    font-size: 10.5em;
+    line-height: 10.5em;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 `;
 
 const Developer = styled.div`
