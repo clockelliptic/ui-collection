@@ -62,10 +62,11 @@ const Heading = styled.div`
 
 const Message = styled.div`
     margin-left: -30%;
-    line-height: 100%;
+    line-height: 4vh;
     position: absolute;
     top: 65%;
     left: 50%;
     font-size: 3vh;
     animation: ${fadeIn} 1 5s linear;
+    width: 55%;
 `;

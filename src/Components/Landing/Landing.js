@@ -2,8 +2,10 @@ import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import styled from 'styled-components'
 import ColorfulImage from './colorful.png'
+import GoldImage from './gold.jpg'
 import Terminal from './Terminal'
 import SolarSystem from '../Orbit/Orbit'
+import { Hearticle } from './Hearticle'
 
 export const Landing = () => (
 <BackgroundWrapper>
@@ -16,6 +18,12 @@ export const Landing = () => (
       return (
         <ReactFullpage.Wrapper>
 
+                <Hello className="section">
+                    <h1>Hi, I'm Message.</h1>
+                    <HelloMessage>Web designer, programmer, and math buff. I have experience ranging from mathematics, statistics, and machine learning, to UI design and scripting in Python and Javascript.</HelloMessage>
+                    <Hearticle />
+                </Hello>
+
                 <Developer className="section">
                     <DevTitle><h1>Developer</h1></DevTitle>
                     <Term><Terminal /></Term>
@@ -24,11 +32,6 @@ export const Landing = () => (
                 <Designer className="section">
                     <SolarSystem onExit={() => {}} N={8} />
                 </Designer>
-
-                <Hello className="section">
-                    <h1>Hi, I'm Message.</h1>
-                    <HelloMessage>Web designer, programmer, and math buff. I have experience ranging from mathematics, statistics, and machine learning, to UI design and scripting in Python and Javascript.</HelloMessage>
-                </Hello>
 
                 <Programmer className="section">
                     <h1>Programmer</h1>
@@ -57,11 +60,13 @@ const BackgroundWrapper = styled.div`
 `;
 
 const Hello = styled.div`
+    position: absolute;
     color: #000;
     text-align: center;
     font-size: 1.5em;
     line-height: 1.5em;
-    background-image: linear-gradient(#FCF, #CEE)
+    width: 100%;
+    background:linear-gradient(#AFE, #FAC);
 `;
 
 const HelloMessage = styled.div`
@@ -71,14 +76,6 @@ const HelloMessage = styled.div`
 `;
 
 const Developer = styled.div`
-    padding: none;
-    background: var(--dark-gray) url(${ColorfulImage});
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background: none;
 `;
 
 const Term = styled.div`
