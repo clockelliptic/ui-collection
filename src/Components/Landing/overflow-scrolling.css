@@ -1,6 +1,0 @@
-.overflow-scrolling {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    width: 100%;
-    height: 100%;
-}

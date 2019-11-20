@@ -1,0 +1,56 @@
+{
+  "name": "react-fully-scrolled",
+  "version": "1.0.4",
+  "description": "Full page scrolling for react",
+  "main": "lib/index.js",
+  "jsnext:main": "es/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && npm clean-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server",
+    "test:lint": "node_modules/eslint/bin/eslint.js src --ext .js --ext .jsx --cache",
+    "prepublish": "npm run build",
+    "gh-pages:deploy": "nwb build-demo && node_modules/gh-pages/bin/gh-pages -d demo/dist"
+  },
+  "dependencies": {
+    "prop-types": ">15.4.1",
+    "react": ">15.4.1",
+    "react-dom": ">15.4.1"
+  },
+  "peerDependencies": {
+    "react": "15.x",
+    "react-dom": "15.x"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "gh-pages": "^0.12.0",
+    "nwb": "^0.18.0"
+  },
+  "author": "Gilad Dayagi",
+  "homepage": "https://giladaya.github.io/react-fully-scrolled/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giladaya/react-fully-scrolled.git"
+  },
+  "keywords": [
+    "react-component",
+    "full-page",
+    "scroll"
+  ]
+}

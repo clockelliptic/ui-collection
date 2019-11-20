@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 import styled from 'styled-components'
 import 'pathseg'
 import { params } from './particles-config'
-import Splash from '../Containers/Splash'
+
 
 class ParticleAnimation extends React.Component{
     render(){

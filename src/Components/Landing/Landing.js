@@ -1,110 +1,112 @@
 import React from 'react';
-import ReactFullpage from '@fullpage/react-fullpage';
-import styled from 'styled-components'
-import ColorfulImage from './colorful.png'
-import GoldImage from './gold.jpg'
-import Terminal from './Terminal'
+import styled, { keyframes } from 'styled-components'
+import { Scroller as _FullPage, Section as _Slide } from './react-fully-scrolled/src';
+import { SwipeableViews } from 'react-swipeable-views';
+import LazyLoad from 'react-lazyload'
+
+/* BUILT COMPONENTS */
+import { Terminal } from './Terminal/Terminal'
 import SolarSystem from '../Orbit/Orbit'
-import { Hearticle } from './Hearticle'
-import Flowers from './flowers.jpg'
+import SlideNav from './SlideNav/SlideNav'
 
-export const Landing = () => (
-<BackgroundWrapper>
-  <ReactFullpage
-    //fullpage options
-    //licenseKey = {'YOUR_KEY_HERE'}
-    scrollingSpeed = {700} /* Options here */
+document.ontouchmove = function(ev) {
+    ev.preventDefault();
+}
 
-    render={({ state, fullpageApi }) => {
-      return (
-        <ReactFullpage.Wrapper>
+export default class Landing extends React.Component {
+    state = {
+        curPage: 1,
+        maxPage: 3,
+        minPage: 1,
+    }
 
-                <Hello className="section">
-                    <Hearticle />
-                    <HelloMessage>Hello</HelloMessage>
-                </Hello>
+    handlePageChange(from, to){
+        if ((to > this.state.maxPage) || (to < this.state.minPage)) {
+            return;
+        }
 
-                <Developer className="section">
-                    <DevTitle><h1>Developer</h1></DevTitle>
-                    <Term><Terminal /></Term>
-                </Developer>
+        this.setState({
+            scrollState: !(to>=3),
+            curPage: to,
+        })
+        console.log(this.state)
+    }
 
-                <Designer className="section">
-                    <SolarSystem onExit={() => {}} N={8} />
-                </Designer>
+    render(){
 
-                <Programmer className="section">
-                    <h1>Programmer</h1>
-                </Programmer>
+        return (
+            <React.Fragment>
+                <SlideNav
+                    showUpButton={(this.state.curPage!==this.state.minPage)}
+                    showDownButton={(this.state.curPage!==this.state.maxPage)}
+                    shouldUpdate={(this.state.curPage!==this.state.minPage) || (this.state.curPage!==this.state.maxPage)}
+                    curPage={this.state.curPage}
+                />
+            <FullPage
+                onBeforeScroll={(from, to) => {this.handlePageChange(from, to)}}
+                isEnabled={this.state.scrollState}
+                >
+                    <Slide id="Designer">
+                            <SolarSystem
+                                onExit={() => {}}
+                                N={7}
+                                heading={`Hi, I'm Allen.`}
+                                message1={
+                                    `I'm have an education focused in math and the physical sciences. My experience ranges from statistics, machine learning,
+                                    and advanced calculus, to UI design, scripting, and scientific computing in Python and Javascript.
+                                    `
+                                }
+                                message2={`I live in the Developer-Stylist star system.`}
+                            />
+                    </Slide>
 
+                    <Slide id="Developer">
+                        <DevTitle>Developer / Designer</DevTitle>
+                        <Term>
+                            <Terminal />
+                        </Term>
+                    </Slide>
 
+                    <Slide style={{background:"rgba(0,0,0,0.2)"}}>
+                            <h1>Programmer</h1>
+                    </Slide>
+            </FullPage></React.Fragment>
+        );
+    }
+}
 
-        </ReactFullpage.Wrapper>
-      );
-    }}
-  />
-  </BackgroundWrapper>
-);
-
-const BackgroundWrapper = styled.div`
-    min-height: 100%
-    top: 0;
-    left: 0;
-    z-index: -9999;
-    height: auto;
-    position: fixed;
-    background: var(--dark-gray) url(${ColorfulImage});
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+const FullPage = styled(_FullPage)`
 `;
 
-const Hello = styled.div`
-    width: 100%;
-    background-image: url(${Flowers});
-`;
 
-const HelloMessage = styled.div`
-    color: #FFF;
-    position: absolute;
-    text-align: left;
-    font-size: 10.5em;
-    line-height: 10.5em;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-`;
+class Slide extends React.Component{
+    shouldComponentUpdate(){
+        return false;
+    }
+    render(){
+        const ScrollSlide = styled(_Slide)`
+            display: block;
+            height: 100vh;
+            width: 100%;
+        `;
 
-const Developer = styled.div`
-`;
+        return (
+            <LazyLoad><ScrollSlide>{this.props.children}</ScrollSlide></LazyLoad>
+        );
+    }
+}
 
 const Term = styled.div`
-    position: absolute;
-    top: 15%;
-    bottom: 0;
-    width: 90%;
-    margin: 0 5% 5% 5%;
+    margin: 0 15% 0 15%;
 `;
+
 
 const DevTitle = styled.div`
-    height: 100%;
-    margin: 10% 0 0 5%;
-    color: rgba(255,255,255,0.7);
+    margin: 3% 0 0 15%;
+    color: rgba(255,255,255,0.8);
     text-align: left;
     font-family: "Lucida Console", "DejaVu Sans Mono", "Consolas";
-    font-size: 2em;
-`;
-
-
-const Designer = styled.div`
-    background: var(--medium-gray);
-    width: 100%;
-    height: 100%;
-`;
-
-const Programmer = styled.div`
-    background: var(--gray);
+    font-size: 4em;
+    line-height: 1em;
+    max-height: 15%;
 `;

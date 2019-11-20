@@ -1,4 +1,4 @@
-import { svg } from './brainheart.svg'
+import { svg } from './static/brainheart.svg'
 
 export const params = {
     "polygon": {
@@ -7,7 +7,7 @@ export const params = {
       "move": {
           "radius": 10
         },
-      "url": "https://raw.githubusercontent.com/clockelliptic/ui-collection/master/src/Components/Landing/brainheart.svg",
+      "url": "",
       "scale": 10,
       "draw": {
         "enable": true,

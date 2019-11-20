@@ -11,7 +11,9 @@ export default class SolarSystem extends React.Component {
         super(props)
         this.state = {
             onExit: props.onExit,
-            message: props.message,
+            heading: props.heading,
+            message1: props.message1,
+            message2: props.message2,
             N: props.N,
         };
     }
@@ -27,13 +29,26 @@ export default class SolarSystem extends React.Component {
                     <Sol onClick={this.onExit.bind(this)} />
                     {OrbitalSystem(this.state.N).map((Planet, i) => <Planet key={i} />)}
                 </Tilt>
-                <Heading>
-                    {this.state.heading || "Hi, I'm Allen."}
-                </Heading>
-                <Message>
-                    {this.state.message || "Web designer, programmer, and math buff. I have experience ranging from mathematics, statistics, and machine learning, to UI design and scripting in Python and Javascript."}
-                </Message>
+
+                <VerticalAlign>
+                    <HorizontalAlign>
+                        <Heading>
+                        <font color={"#FFCC67"}>{this.state.heading || ""}</font>
+                        </Heading>
+
+                        <Message>
+                            {this.state.message1 || ""}
+                        </Message>
+
+                        <Message>
+                            {this.state.message2 || ""}
+                        </Message>
+                        </HorizontalAlign>
+                </VerticalAlign>
+
+
                 <Space />
+
             </OrbitalContainer>
         );
     }
@@ -50,23 +65,30 @@ const Tilt = styled.div`
     transform: rotate(-33deg);
 `;
 
-const Heading = styled.div`
-    margin-left: -30%;
-    line-height: 100%;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    font-size: 7vh;
+const VerticalAlign = styled.div`
+    position: absolute
+    margin: auto;
+    left: auto;
+    right: auto;
+    top: 45%;
+`;
+
+const HorizontalAlign = styled.div`
+    margin: auto;
+    width: 50%;
+    min-width: 500px;
     animation: ${fadeIn} 1 5s linear;
 `;
 
+const Heading = styled.div`
+    display: block;
+    line-height: 7vh;
+    font-size: 7vh;
+`;
+
 const Message = styled.div`
-    margin-left: -30%;
+    display: block;
     line-height: 4vh;
-    position: absolute;
-    top: 65%;
-    left: 50%;
     font-size: 3vh;
-    animation: ${fadeIn} 1 5s linear;
-    width: 55%;
+    margin-top: 2vh;
 `;

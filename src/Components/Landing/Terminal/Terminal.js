@@ -1,83 +1,76 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
+
 import styled from 'styled-components'
 import Typist from 'react-typist';
 import ReactHtmlParser from 'react-html-parser';
-import { terminal_text } from './terminal-text'
+import { terminal_text1, terminal_text2 } from './terminal-text'
 import 'highlight.js/styles/arta.css';
-import sizeMe  from 'react-sizeme'
-import { animateScroll } from "react-scroll";
+import ScrollToBottom from 'react-scroll-to-bottom';
 
 const hljs = require("highlight.js");
 hljs.initHighlighting();
 
-const highlightedCode = hljs.highlightAuto(terminal_text).value
+const highlightedCode1 = hljs.highlightAuto(terminal_text1).value
+const highlightedCode2 = hljs.highlightAuto(terminal_text2).value
 
-export default class Terminal extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = {
-
-        }
-    }
-
-    render(){
+export class Terminal extends React.PureComponent {
+    render() {
         const TypisOpts = {
             cursor: {
-            show: true,
-            blink: true,
-            element: '_',
-            hideWhenDone: false,
-            hideWhenDoneDelay: 1000,
+                show: true,
+                blink: true,
+                element: '_',
+                hideWhenDone: false,
+                hideWhenDoneDelay: 1000,
             }
         }
+
         return (
             <Window>
                 <TopBar />
+
+                <AutoScroll>
                 <Console>
-                    <Text>
-                        (base) /root/allen/dev > <font color="#9FF">vi</font> <font color="#F0F">SolarSystem.js</font><br /><br />
-
-                        /*  Calculations based on Kepler's Law.... cool!  Scroll down to see the magic or keep watching to see how stars are born...  */
-
-                        <pre><code>
-                            <Typist {...TypisOpts}>
+                    (base) /root/allen/dev > <font color="#9FF">vi</font> <font color="#F0F">SolarSystem.js</font><br /><br />
+                    /*  Calculations based on Kepler's Law.... cool! */
+                    <pre><code>
+                        {ReactHtmlParser(highlightedCode1)}
+                        <Typist {...TypisOpts}>
                             <Typist.Delay ms={0} />
+                            {ReactHtmlParser(highlightedCode2)}
+                        </Typist>
+                    </code></pre>
+                    </Console>
+                </AutoScroll>
 
-
-                            {ReactHtmlParser(highlightedCode)}
-
-
-                            </Typist>
-                        </code></pre>
-                    </Text>
-                </Console>
             </Window>
         );
     }
 };
 
-const Window = styled.div`
-    top: 0;
-    bottom: 0;
-    position: absolute;
+const AutoScroll = styled(ScrollToBottom)`
     width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+`;
+
+const Window = styled.div`
+    position: absolute;
     background: rgba(0,0,0,0.8);
     border-radius: 3px;
     box-shadow: 0px 0px 12px 6px rgba(0,0,0,0.6);
-    overflow-x: hidden;
+    height: 80vh;
+    width: 70vw;
     overflow-y: hidden;
+    overflow-x: hidden;
 `;
-
 
 const TopBar = () => {
     const Bar = styled.div`
-        top: 0;
-        left: 0;
-        right: 0;
+        width: 70vw;
         height: 42px;
         border-bottom: 1px solid rgba(255,255,255,0.09);
-        display: inline-block;
-        position: absolute;
     `;
     return (
         <Bar>
@@ -86,25 +79,19 @@ const TopBar = () => {
     )
 }
 
-
-const Text = styled.div`
+const Console = styled.div`
     color: rgba(255,255,255,0.7);
     text-align: left;
     font-family: "DejaVu Sans Mono", "Consolas";
     font-size: 1em;
-`;
-
-
-const ConsoleContainer = styled.div`
-    margin: 2%;
+    padding: 1em 1em 3em 1em;
     top: 42px;
-    width: 100%;
+    width: 99%;
     bottom: 0;
     display: inline-block;
-    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
 `;
-
-const Console = sizeMe({ monitorHeight: true })(ConsoleContainer)
 
 
 const Buttons = () => {
@@ -155,8 +142,8 @@ const Buttons = () => {
             position: absolute;
             background-color: none;
             right: 0;
-            width: 30px;
-            height: 30px;
+            width: 31px;
+            height: 31px;
             top: 9px;
             right: 9px;
         `;
@@ -213,10 +200,9 @@ const Buttons = () => {
 
     const ButtonContainer = styled.div`
         position: absolute;
-        right: 0;
         background: none;
         height: 100%;
-        width: 100%;
+        width: 70vw;
     `;
 
     return (

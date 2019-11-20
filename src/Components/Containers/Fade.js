@@ -52,9 +52,8 @@ export const fadeOut = keyframes`
     }
 `;
 
-const Fade = styled.div`
+export const Fade = styled.div`
     visibility: ${props => props.out ? 'hidden' : 'visible'};
-    animation: ${props => props.out ? fadeOut : fadeIn} 1s linear;
-    transition: visibility 1s linear;
-    background: none;
+    animation: ${props => props.out ? fadeOut : fadeIn} 2s linear;
+    transition: visibility 2s ease-in;
 `;

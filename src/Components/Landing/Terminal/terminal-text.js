@@ -1,5 +1,5 @@
 
-export const terminal_text =
+export const terminal_text1 =
 `
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
@@ -15,7 +15,10 @@ function make_orbit_keyframes(t_max, orbit_radius, phaseShift, tiltZ) {
             scale = 1+ Math.sin(angle_rad/2)*Math.sin(angle_rad/2),
             zIndex = 1.5 + Math.cos(angle_rad+Math.PI),
             rgbaColor = (amt0, amt1 = amt0, amt2 = amt0, opacity=0.9+(1/(scale*scale))) => \`rgba(\${amt0},\${amt1},\${amt2},\${opacity})\`;
+`;
 
+export const terminal_text2 =
+`
         const keyframe =\`
             \${percent}% {
                 transform:

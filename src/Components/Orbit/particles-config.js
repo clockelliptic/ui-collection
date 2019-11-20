@@ -1,7 +1,7 @@
 export const params = {
     "particles": {
       "number": {
-        "value": 160,
+        "value": 110,
         "density": {
           "enable": true,
           "value_area": 600
@@ -71,7 +71,7 @@ export const params = {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "grab"
         },
         "onclick": {
@@ -89,8 +89,8 @@ export const params = {
         },
         "bubble": {
           "distance": 250,
-          "size": 2,
-          "duration": 0.5,
+          "size": 2.4,
+          "duration": 0.4,
           "opacity": 1,
           "speed": 0.1
         },
