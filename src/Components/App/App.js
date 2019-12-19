@@ -26,7 +26,7 @@ class App extends React.Component {
   }
 
   componentDidMount(){
-    if (!this.state.mainDisplayContent()) this.setState({mainDisplayContent: this.state.landing}) /* <---- SET DEFAULT VIEW HERE <---- */
+    if (!this.state.mainDisplayContent()) this.setState({mainDisplayContent: this.state.portfolio}) /* <---- SET DEFAULT VIEW HERE <---- */
   }
 
   setMainDisplayContent(content){

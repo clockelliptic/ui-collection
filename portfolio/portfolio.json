@@ -1,6 +1,6 @@
 {
     "title":"Personal Portfolio",
-    "description":"You're lookin' at it! A personal portfolio of mine, built with React and a few associated libraries. Custom-built fullpage virtual scrolling. Uses a CORS proxy to fetch portfolio item data from GitHub. Take it, break it, and make it your own!",
+    "description":"You're lookin' at it! A personal portfolio of mine, built with React and a few associated libraries. Custom-built fullpage virtual scrolling and other goodies. Take it, break it, and make it your own!",
     "tags":{
        "languages":[
           "javascript"
