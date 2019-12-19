@@ -66,9 +66,6 @@ class Scroller extends Component {
   }
 
   componentDidMount() {
-    // this.containerEl = this.refs.container
-    // this.containerEl = findDOMNode(this.refs['container']);
-    // console.log('Mount', this)
     this.resize();
 
     this.enableTransition()
@@ -86,7 +83,6 @@ class Scroller extends Component {
   }
 
   componentWillUnmount() {
-    // cleanup
     this.removeButtonEvent()
     this.removeWheelEvent()
     this.removeTouchEvents()
@@ -98,11 +94,8 @@ class Scroller extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (this.props.children.length !== this.totalPages) {
-      this.totalPages = this.props.children.length
-      if (this.state.curPage > this.totalPages) {
-        this.turnTo(this.totalPages)
-      }
+    if (this.state.curPage > this.totalPages) {
+      this.turnTo(this.totalPages)
     }
   }
 
@@ -130,15 +123,12 @@ class Scroller extends Component {
   //--------------
 
   handleButtonNav(from, to) {
-    if ((to > 0) & to < (this.totalPages+1)){
-      console.log("worked1");
-      this.enableTransition()
-      this.turnTo(to);
-    }
+    this.enableTransition()
+    this.turnTo(to);
   }
 
   onButton = (e) => {
-    if (!this.props.isEnabled) return;
+    //if (!this.props.isEnabled) return;
     if (this.isAnimating) return;
 
     let from, to;
@@ -148,23 +138,20 @@ class Scroller extends Component {
     } catch (e) {
       console.error(e)
     }
-
-    console.log("worked", from, to, e );
-    this.handleButtonNav(from, to);
-    this.removeButtonEvent()
+    this.handleButtonNav(Math.floor(from), Math.floor(to));
     this.addButtonEvent()
   }
 
   removeButtonEvent() {
     try {
-      document.getElementById('PageUpButton').removeEventListener('click', this.onButton.bind(this))
-      document.getElementById('PageDownButton').removeEventListener('click', this.onButton.bind(this))
+      document.getElementById('PageUpButton').removeEventListener('click', this.onButton)
+      document.getElementById('PageDownButton').removeEventListener('click', this.onButton)
     } catch (e){ console.error(e)}
   }
 
   addButtonEvent() {
-    document.getElementById('PageUpButton').addEventListener('click', this.onButton.bind(this));
-    document.getElementById('PageDownButton').addEventListener('click', this.onButton.bind(this));
+    document.getElementById('PageUpButton').addEventListener('click', this.onButton);
+    document.getElementById('PageDownButton').addEventListener('click', this.onButton);
   }
 
   //--------------
@@ -211,6 +198,7 @@ class Scroller extends Component {
     if (!isAccelerating) return;
 
     if (delta) this.handle(delta);
+    this.addButtonEvent()
   }
 
   removeWheelEvent() {
@@ -277,14 +265,6 @@ class Scroller extends Component {
 
     const touchPosY = e.changedTouches[0].clientY;
     this.touchMoveDelta = touchPosY - this.touchStartPosY;
-
-
-    // const delta = touchPosY - this.touchStartPosY;
-
-    // const translatey = -(window.innerHeight * (this.state.curPage - 1) - delta);
-    // const translateyStr = `translatey(${translatey}px)`;
-
-    // this.setStyles({transform: translateyStr})
   }
 
   onTouchEnd = (e) => {
@@ -299,6 +279,7 @@ class Scroller extends Component {
     const delta = touchEndY - this.touchStartPosY;
 
     this.handleSwipeEnd(delta)
+    this.addButtonEvent()
   }
 
   resetTranslateY(animate) {
@@ -322,10 +303,6 @@ class Scroller extends Component {
 
   // assign styles to element
   setStyles = (style) => {
-    // const container = this.containerEl;
-    // Object.keys(style).forEach(function (key) {
-    //   container.style[key] = style[key]
-    // })
     Object.keys(style).forEach((key) => {
       this.containerEl.style[key] = style[key]
     })
@@ -342,7 +319,13 @@ class Scroller extends Component {
   }
 
   turnTo(num) {
-    if (this.state.curPage === num) return
+    if (
+      this.state.curPage == num
+      || this.totalPages < num
+      || num < 1
+    ){
+      return
+    }
     this.isScrolling = true
     this.props.onBeforeScroll(this.state.curPage, num);
     const translateyStr = `translatey(-${window.innerHeight * (num - 1)}px)`;

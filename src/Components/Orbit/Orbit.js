@@ -1,10 +1,12 @@
 import React from 'react';
 import './Orbit.css'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import Particles from 'react-particles-js'
 import { params as particles_config } from './particles-config'
 import { OrbitalContainer, Sol, OrbitalSystem } from './OrbitalFactory'
 import { fadeIn } from '../Containers/Fade'
+import { Button as GrommetButton } from 'grommet'
+import { Github, Catalog, Deploy } from 'grommet-icons'
 
 export default class SolarSystem extends React.Component {
     constructor(props){
@@ -43,6 +45,14 @@ export default class SolarSystem extends React.Component {
                         <Message>
                             {this.state.message2 || ""}
                         </Message>
+
+                        <Message>
+                            <Button margin='small' hoverIndicator={true} color='white' icon={<Github />} label={'See me on Github'} />
+                            <Button margin='small' hoverIndicator={true} color='white' icon={<Catalog />} label={'Browse my portfolio'} />
+                            <Glow>
+                                <Button margin='small' icon={<Deploy />} label={'Take the tour'} />
+                            </Glow>
+                        </Message>
                         </HorizontalAlign>
                 </VerticalAlign>
 
@@ -54,10 +64,36 @@ export default class SolarSystem extends React.Component {
     }
 }
 
+const Button = styled(GrommetButton)`
+    border-radius: 10px;
+`;
+
+const glowKeyframes = keyframes`
+    0% {
+      opacity: 1.0;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1.0;
+    }
+`;
+
+const Glow = styled.div`
+    animation: ${glowKeyframes} infinite 2s ease-in-out;
+    display: inline;
+
+    &:hover {
+        animation: none;
+    }
+`
+
+
 const Space = () => <Particles params={particles_config} />
 
 const Tilt = styled.div`
-    /* This tilts itself and its children elements to the specified transform angle. */
+    /* This tilts itself and its children to the specified transform angle. */
     top: 25%;
     left: 25%;
     position: absolute;

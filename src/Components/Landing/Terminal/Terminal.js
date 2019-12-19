@@ -55,20 +55,20 @@ const AutoScroll = styled(ScrollToBottom)`
     overflow-x: hidden;
 `;
 
+//
 const Window = styled.div`
-    position: absolute;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.9);
     border-radius: 3px;
     box-shadow: 0px 0px 12px 6px rgba(0,0,0,0.6);
-    height: 80vh;
-    width: 70vw;
+    height: 100%;
+    width: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
 `;
 
 const TopBar = () => {
     const Bar = styled.div`
-        width: 70vw;
+        width: 100%
         height: 42px;
         border-bottom: 1px solid rgba(255,255,255,0.09);
     `;
@@ -197,12 +197,12 @@ const Buttons = () => {
         Square,
         Ex
     ]
-
+//position: absolute;
     const ButtonContainer = styled.div`
-        position: absolute;
+
         background: none;
         height: 100%;
-        width: 70vw;
+        width: 100%;
     `;
 
     return (

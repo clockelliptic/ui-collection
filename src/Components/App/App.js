@@ -1,10 +1,8 @@
 
 import React from 'react';
-import { Box, TextInput, } from 'grommet';
 import styled from 'styled-components';
 
 /*   BUILT COMPONENTS   */
-import DropSelect from '../DropSelect/DropSelect'
 import { FilterBar as _FilterBar } from '../FilterBar/FilterBar'
 
 /*   VIEWS & PAGES   */
@@ -12,7 +10,6 @@ import Landing from '../Landing/Landing'
 import Portfolio from '../Portfolio/Portfolio'
 
 /* STATIC */
-import logo from './logo.svg';
 import ColorfulImage from '../Landing/static/colorful.png'
 
 

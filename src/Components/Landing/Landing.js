@@ -1,23 +1,28 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import { Scroller as _FullPage, Section as _Slide } from './react-fully-scrolled/src';
-import { SwipeableViews } from 'react-swipeable-views';
 import LazyLoad from 'react-lazyload'
+import SVG from 'react-inlinesvg'
 
 /* BUILT COMPONENTS */
 import { Terminal } from './Terminal/Terminal'
 import SolarSystem from '../Orbit/Orbit'
 import SlideNav from './SlideNav/SlideNav'
+import resume_svg from './resume_web.svg'
+import portrait from './portrait.svg'
+
 
 document.ontouchmove = function(ev) {
     ev.preventDefault();
 }
+
 
 export default class Landing extends React.Component {
     state = {
         curPage: 1,
         maxPage: 3,
         minPage: 1,
+        scrollState: true,
     }
 
     handlePageChange(from, to){
@@ -29,7 +34,6 @@ export default class Landing extends React.Component {
             scrollState: !(to>=3),
             curPage: to,
         })
-        console.log(this.state)
     }
 
     render(){
@@ -37,14 +41,15 @@ export default class Landing extends React.Component {
         return (
             <React.Fragment>
                 <SlideNav
-                    showUpButton={(this.state.curPage!==this.state.minPage)}
-                    showDownButton={(this.state.curPage!==this.state.maxPage)}
-                    shouldUpdate={(this.state.curPage!==this.state.minPage) || (this.state.curPage!==this.state.maxPage)}
+                    /* Up & Down navigation buttons of slide layout */
+                    showUpButton={(this.state.curPage!=this.state.minPage)}
+                    showDownButton={(this.state.curPage!=this.state.maxPage)}
+                    shouldUpdate={true}
                     curPage={this.state.curPage}
                 />
-            <FullPage
-                onBeforeScroll={(from, to) => {this.handlePageChange(from, to)}}
-                isEnabled={this.state.scrollState}
+                <FullPage
+                    onBeforeScroll={(from, to) => {this.handlePageChange(from, to)}}
+                    isEnabled={this.state.scrollState}
                 >
                     <Slide id="Designer">
                             <SolarSystem
@@ -56,21 +61,59 @@ export default class Landing extends React.Component {
                                     and advanced calculus, to UI design, scripting, and scientific computing in Python and Javascript.
                                     `
                                 }
-                                message2={`I live in the Developer-Stylist star system.`}
+                                //message2={`I live in the Developer-Stylist star system.`}
                             />
                     </Slide>
 
                     <Slide id="Developer">
-                        <DevTitle>Developer / Designer</DevTitle>
-                        <Term>
-                            <Terminal />
-                        </Term>
+                        <DevPresentation>
+                            <TermContainer>
+                                <Terminal />
+                            </TermContainer>
+                            <MessageContainer>
+                                <DevTitle>
+                                    Physics in motion.
+                                </DevTitle>
+                                Slides:
+                                <br /> - Physics in motion
+                                <br /> ---- Capture UI/UX motion & animation with mathematics that reflect natural movement for an experience so smooth that users just want to stay.
+                                <br /> - Masterful state management
+                                <br /> ---- Your app is built for long-term mainenance. Isolate state logic from UI components, side-effects, and other core features that compose your app. Every action is pre-defined and perfectly testable.
+                                <br /> - Modular design
+                                <br /> ---- Expand and refine your product as easily as you might configure power tools with bits and blades. Your app will fit together like plugs and sockets. Integrate and configure new and exsting feature seamlessly, without the mess.
+                            </MessageContainer>
+                        </DevPresentation>
                     </Slide>
 
-                    <Slide style={{background:"rgba(0,0,0,0.2)"}}>
-                            <h1>Programmer</h1>
+                    <Slide>
+                        <div style={{
+                            overflowY: 'scroll',
+                            height: '100vh',
+                        }}>
+                            <div style={{
+                                background: 'rgba(0,0,0,0.0)',
+                                width: '100vw',
+                            }}>
+                                <SVG src={portrait} style={{
+                                    width: '100px',
+                                    height: '100px',
+                                    position: 'absolute',
+                                    zIndex: '101',
+                                }} />
+                                <SVG src={resume_svg} style={{
+                                    margin: '0 auto 0 auto',
+                                    height: '2300px',
+                                    width: '100vw',
+                                    display: 'table',
+                                    background: 'rgba(0,0,0,0.8)',
+                                    backdropFilter: 'blur(6px)'
+                                }} />
+                            </div>
+                        </div>
                     </Slide>
-            </FullPage></React.Fragment>
+
+                </FullPage>
+            </React.Fragment>
         );
     }
 }
@@ -96,17 +139,42 @@ class Slide extends React.Component{
     }
 }
 
-const Term = styled.div`
-    margin: 0 15% 0 15%;
+const DevPresentation = styled.div`
+    width: 95vw;
+    height: 95vh;
+    top: 2.5vh;
+    bottom: 2.5vh;
+    left: 2.5vw;
+    right: 2.5vw;
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
 `;
 
+const TermContainer = styled.div`
+    width: 60%;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    display: inline-block;
+`;
+
+const MessageContainer = styled.div`
+    width: 40%;
+    height: 100%;
+    right: 0px;
+    position: absolute;
+    display: inline-block;
+    background: rgba(0,0,0,0.2)
+`;
 
 const DevTitle = styled.div`
-    margin: 3% 0 0 15%;
     color: rgba(255,255,255,0.8);
     text-align: left;
     font-family: "Lucida Console", "DejaVu Sans Mono", "Consolas";
-    font-size: 4em;
+    font-size: 3em;
     line-height: 1em;
-    max-height: 15%;
+    display: inline-block;
+    text-align: justify;
+    test-justify: inter-word;
 `;

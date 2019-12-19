@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2481 6497" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Timeline" transform="matrix(1,0,0,1,-50,2921.22)">
+        <g transform="matrix(1,0,0,-1,0,4334.21)">
+            <path d="M690.904,2967.78C737.096,2863.41 719.514,2769.89 648.808,2685.42C576.425,2605.61 471.887,2579.6 344.786,2621.66C197.471,2680.4 119.828,2857.22 169.45,3022.43C206.933,3147.22 316.97,3259.02 490.629,3290.85C663.827,3319.16 829.911,3255.51 973.264,3117.18C1094.9,2986.38 1153.8,2850.57 1188.76,2716.63C1193.69,2697.75 1197.98,2678.98 1201.66,2660.37C1226.6,2534.36 1239.88,2342.75 1238.16,2118.43C1233.21,1889.88 1245.83,1691.49 1280.67,1540.05C1336.17,1303 1445.31,1134.34 1600.3,1024.14C1792.37,906.665 1973.21,896.544 2130.46,987.989C2318.75,1097.55 2377.84,1317.26 2264.56,1494.59C2207.33,1572.03 2132.43,1621 2030.44,1626.3C1904,1624 1795.08,1554.36 1763.15,1417.61C1743.64,1302.18 1795.9,1194.39 1904.19,1155.03C1980.06,1127.46 2064.35,1138.58 2121.46,1189.19" style="fill:none;stroke:white;stroke-width:5.91px;"/>
+        </g>
+        <g id="Pin" transform="matrix(2.08333,2.56791e-32,2.56791e-32,2.08333,-1255.26,772.183)">
+            <g transform="matrix(1,2.46519e-32,-1.2326e-32,1,1083,893.5)">
+                <path d="M422,123L422,147.5L420,153.5L418,147.5L418,123L422,123ZM420,102C425.243,102 429.5,106.257 429.5,111.5C429.5,116.743 425.243,121 420,121C414.757,121 410.5,116.743 410.5,111.5C410.5,106.257 414.757,102 420,102ZM417,106C418.104,106 419,106.896 419,108C419,109.104 418.104,110 417,110C415.896,110 415,109.104 415,108C415,106.896 415.896,106 417,106Z" style="fill:rgb(134,134,134);"/>
+            </g>
+            <g transform="matrix(0.923077,-1.13778e-32,-1.13778e-32,0.923077,1103.77,907.923)">
+                <rect x="400" y="90" width="65" height="65" style="fill:none;"/>
+            </g>
+        </g>
+        <g id="Year-Marks" serif:id="Year Marks">
+            <g transform="matrix(0.824457,0,0,0.824457,42.5364,-383.672)">
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:rgb(39,39,39);"/>
+                <clipPath id="_clip1">
+                    <circle cx="659.97" cy="1722.87" r="99.623"/>
+                </clipPath>
+                <g clip-path="url(#_clip1)">
+                    <g transform="matrix(1,0,0,1,-515.597,-415.421)">
+                        <text x="1104.38px" y="2161.74px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">2013</text>
+                    </g>
+                </g>
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:none;stroke:white;stroke-width:7.16px;"/>
+            </g>
+            <g transform="matrix(0.824457,0,0,0.824457,641.961,208.455)">
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:rgb(39,39,39);"/>
+                <clipPath id="_clip2">
+                    <circle cx="659.97" cy="1722.87" r="99.623"/>
+                </clipPath>
+                <g clip-path="url(#_clip2)">
+                    <g transform="matrix(1,0,0,1,-515.597,-415.421)">
+                        <text x="1104.38px" y="2161.74px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">2015</text>
+                    </g>
+                </g>
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:none;stroke:white;stroke-width:7.16px;"/>
+            </g>
+            <g transform="matrix(0.824457,0,0,0.824457,436.627,-177.928)">
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:rgb(39,39,39);"/>
+                <clipPath id="_clip3">
+                    <circle cx="659.97" cy="1722.87" r="99.623"/>
+                </clipPath>
+                <g clip-path="url(#_clip3)">
+                    <g transform="matrix(1,0,0,1,-515.597,-415.421)">
+                        <text x="1104.38px" y="2161.74px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">2014</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-609.066,476.432)">
+                        <circle cx="659.97" cy="1722.87" r="99.623" style="fill:white;"/>
+                        <clipPath id="_clip4">
+                            <circle cx="659.97" cy="1722.87" r="99.623"/>
+                        </clipPath>
+                        <g clip-path="url(#_clip4)">
+                            <g transform="matrix(1,0,0,1,-515.597,-415.421)">
+                                <text x="1104.38px" y="2161.74px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:rgb(134,134,134);">2013</text>
+                            </g>
+                        </g>
+                        <circle cx="659.97" cy="1722.87" r="99.623" style="fill:none;stroke:rgb(134,134,134);stroke-width:7.16px;"/>
+                    </g>
+                </g>
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:none;stroke:white;stroke-width:7.16px;"/>
+            </g>
+            <g transform="matrix(0.824457,0,0,0.824457,696.04,811.675)">
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:rgb(39,39,39);"/>
+                <clipPath id="_clip5">
+                    <circle cx="659.97" cy="1722.87" r="99.623"/>
+                </clipPath>
+                <g clip-path="url(#_clip5)">
+                    <g transform="matrix(1,0,0,1,-515.597,-415.421)">
+                        <text x="1104.38px" y="2161.74px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">2016</text>
+                    </g>
+                </g>
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:none;stroke:white;stroke-width:7.16px;"/>
+            </g>
+            <g transform="matrix(0.824457,0,0,0.824457,735.961,1406.18)">
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:rgb(39,39,39);"/>
+                <clipPath id="_clip6">
+                    <circle cx="659.97" cy="1722.87" r="99.623"/>
+                </clipPath>
+                <g clip-path="url(#_clip6)">
+                    <g transform="matrix(1,0,0,1,-515.597,-415.421)">
+                        <text x="1104.38px" y="2161.74px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">2017</text>
+                    </g>
+                </g>
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:none;stroke:white;stroke-width:7.16px;"/>
+            </g>
+            <g transform="matrix(0.824457,0,0,0.824457,1346.34,1987.02)">
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:rgb(39,39,39);"/>
+                <clipPath id="_clip7">
+                    <circle cx="659.97" cy="1722.87" r="99.623"/>
+                </clipPath>
+                <g clip-path="url(#_clip7)">
+                    <g transform="matrix(1,0,0,1,-515.597,-415.421)">
+                        <text x="1104.38px" y="2161.74px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">2018</text>
+                    </g>
+                </g>
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:none;stroke:white;stroke-width:7.16px;"/>
+            </g>
+            <g transform="matrix(0.824457,0,0,0.824457,1777.91,1612.47)">
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:rgb(39,39,39);"/>
+                <clipPath id="_clip8">
+                    <circle cx="659.97" cy="1722.87" r="99.623"/>
+                </clipPath>
+                <g clip-path="url(#_clip8)">
+                    <g transform="matrix(1,0,0,1,-515.597,-415.421)">
+                        <text x="1104.38px" y="2161.74px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">2019</text>
+                    </g>
+                </g>
+                <circle cx="659.97" cy="1722.87" r="99.623" style="fill:none;stroke:white;stroke-width:7.16px;"/>
+            </g>
+        </g>
+        <g id="Text-Blobs" serif:id="Text Blobs">
+            <g transform="matrix(1,0,0,1,730.93,3327.8)">
+                <text x="598.93px" y="38.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Sep 2017</text>
+                <text x="43.973px" y="105.265px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Begin using Python while studying</text>
+                <text x="108.866px" y="171.932px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Physics &amp; Applied Mathematics</text>
+            </g>
+            <g transform="matrix(1,0,0,1,99.2414,2966.2)">
+                <text x="887.43px" y="38.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Jun 2017</text>
+                <text x="81.473px" y="105.265px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">(NOLS) National Outdoor Leadership School</text>
+                <text x="243.167px" y="171.932px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">30 day<tspan x="386.844px " y="171.932px ">,</tspan> army-grade remote leadership</text>
+                <text x="360.233px" y="238.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">and mountaineering certiﬁcation</text>
+            </g>
+            <g transform="matrix(1,0,0,1,124.108,2468.06)">
+                <text x="743.556px" y="38.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Sep 2016</text>
+                <text x="362.379px" y="105.265px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">Start Degree at Evergreen</text>
+                <text x="40.993px" y="171.932px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Accidentally fall in love with mathematics</text>
+            </g>
+            <g transform="matrix(1,0,0,1,1438.17,2311.85)">
+                <text x="0px" y="38.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">May 2016</text>
+                <text x="0px" y="105.265px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">Ecuador<tspan x="179.15px " y="105.265px ">,</tspan> South America</text>
+                <text x="0px" y="171.932px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">3 months backpacking &amp; mountaineering</text>
+            </g>
+            <g transform="matrix(1,0,0,1,101.322,1924.97)">
+                <text x="739.042px" y="38.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Jun 2015</text>
+                <text x="261.405px" y="105.265px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">R<tspan x="292.045px " y="105.265px ">e</tspan>mote Medical International</text>
+                <text x="132.768px" y="171.932px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">R<tspan x="162.187px " y="171.932px ">e</tspan>mote First R<tspan x="452.665px " y="171.932px ">e</tspan>sponder certiﬁcation</text>
+            </g>
+            <g transform="matrix(1,0,0,1,1371.44,1733.67)">
+                <text x="0px" y="38.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">April 2015</text>
+                <text x="0px" y="105.265px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">Queen Anne Bierhall (Seattle, W<tspan x="722.729px " y="105.265px ">A</tspan>)</text>
+                <text x="0px" y="171.932px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Bussing &amp; Serving tables</text>
+            </g>
+            <g transform="matrix(1,0,0,1,1283.88,1202.59)">
+                <text x="0px" y="38.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Aug 2014</text>
+                <text x="0px" y="105.265px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">Olympic Bailey Range T<tspan x="528.564px " y="105.265px ">r</tspan>averse</text>
+                <text x="0px" y="171.932px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">10 days of rough, mind-opening remote</text>
+                <text x="0px" y="238.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">wilderness travel across an entire mountain range.</text>
+            </g>
+            <g transform="matrix(1,0,0,1,945.149,920.426)">
+                <text x="0px" y="38.599px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">June 2013</text>
+                <text x="0px" y="105.265px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">Olympic National F<tspan x="431.641px " y="105.265px ">o</tspan>rest, W<tspan x="618.042px " y="105.265px ">A</tspan></text>
+                <text x="0px" y="171.932px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Discovered backpacking &amp; mountaineering</text>
+            </g>
+            <g transform="matrix(1,0,0,1,1918,2883.33)">
+                <text x="0px" y="0px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Jan 2020</text>
+                <text x="0px" y="66.667px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">Graduate from</text>
+                <text x="0px" y="133.333px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">Evergreen</text>
+            </g>
+            <g transform="matrix(1,0,0,1,296.284,1371.65)">
+                <text x="0px" y="0px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">May 2012</text>
+                <text x="0px" y="66.667px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">Moved across</text>
+                <text x="0px" y="133.333px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">the country on</text>
+                <text x="0px" y="200px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">a shoestring</text>
+            </g>
+        </g>
+        <g id="Icons">
+            <g id="appbar.language.python" transform="matrix(2.79735,0,0,2.79735,1616.77,3439.69)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M53.833,26.917C57.331,26.917 60.167,29.752 60.167,33.25L60.167,42.75C60.167,46.248 57.331,49.083 53.833,49.083L38,49.083C38,49.958 38.709,50.667 39.583,50.667L49.084,50.667L49.084,53.833C49.084,57.331 46.248,60.167 42.75,60.167L33.25,60.167C29.752,60.167 26.917,57.331 26.917,53.833L26.917,45.521C26.917,42.023 29.752,39.188 33.25,39.188L44.333,39.187C47.831,39.187 50.667,36.352 50.667,32.854L50.667,26.917L53.833,26.917ZM44.333,53.042C43.459,53.042 42.75,53.709 42.75,55.021C42.75,56.332 43.459,56.604 44.333,56.604C45.208,56.604 45.917,56.332 45.917,55.021C45.917,53.709 45.208,53.042 44.333,53.042ZM22.167,49.083C18.669,49.083 15.834,46.248 15.834,42.75L15.834,33.25C15.834,29.752 18.669,26.917 22.167,26.917L38,26.917C38,26.042 37.291,25.333 36.417,25.333L26.917,25.333L26.917,22.167C26.917,18.669 29.752,15.833 33.25,15.833L42.75,15.833C46.248,15.833 49.083,18.669 49.083,22.167L49.083,30.479C49.083,33.977 46.248,36.813 42.75,36.813L31.667,36.813C28.169,36.813 25.334,39.648 25.334,43.146L25.334,49.083L22.167,49.083ZM31.667,22.959C32.541,22.959 33.25,22.291 33.25,20.979C33.25,19.668 32.541,19.396 31.667,19.396C30.792,19.396 30.084,19.668 30.084,20.979C30.084,22.291 30.792,22.959 31.667,22.959Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.language.python1" serif:id="appbar.language.python" transform="matrix(2.79735,0,0,2.79735,2332.03,3301.15)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M53.833,26.917C57.331,26.917 60.167,29.752 60.167,33.25L60.167,42.75C60.167,46.248 57.331,49.083 53.833,49.083L38,49.083C38,49.958 38.709,50.667 39.583,50.667L49.084,50.667L49.084,53.833C49.084,57.331 46.248,60.167 42.75,60.167L33.25,60.167C29.752,60.167 26.917,57.331 26.917,53.833L26.917,45.521C26.917,42.023 29.752,39.188 33.25,39.188L44.333,39.187C47.831,39.187 50.667,36.352 50.667,32.854L50.667,26.917L53.833,26.917ZM44.333,53.042C43.459,53.042 42.75,53.709 42.75,55.021C42.75,56.332 43.459,56.604 44.333,56.604C45.208,56.604 45.917,56.332 45.917,55.021C45.917,53.709 45.208,53.042 44.333,53.042ZM22.167,49.083C18.669,49.083 15.834,46.248 15.834,42.75L15.834,33.25C15.834,29.752 18.669,26.917 22.167,26.917L38,26.917C38,26.042 37.291,25.333 36.417,25.333L26.917,25.333L26.917,22.167C26.917,18.669 29.752,15.833 33.25,15.833L42.75,15.833C46.248,15.833 49.083,18.669 49.083,22.167L49.083,30.479C49.083,33.977 46.248,36.813 42.75,36.813L31.667,36.813C28.169,36.813 25.334,39.648 25.334,43.146L25.334,49.083L22.167,49.083ZM31.667,22.959C32.541,22.959 33.25,22.291 33.25,20.979C33.25,19.668 32.541,19.396 31.667,19.396C30.792,19.396 30.084,19.668 30.084,20.979C30.084,22.291 30.792,22.959 31.667,22.959Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.map.gps" transform="matrix(2.79735,0,0,2.79735,1123.86,2011.27)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M49,47C51.209,47 53,48.791 53,51C53,53.209 51.209,55 49,55C46.791,55 45,53.209 45,51C45,48.791 46.791,47 49,47ZM49,45C45.686,45 43,47.686 43,51C43,54.314 45.686,57 49,57C52.314,57 55,54.314 55,51C55,47.686 52.314,45 49,45ZM49,42C53.971,42 58,46.029 58,51C58,55.971 53.971,60 49,60C44.029,60 40,55.971 40,51C40,46.029 44.029,42 49,42ZM27.708,22.75L38.792,25.917L48.292,19.583L62,23L62,50L58.837,49.192C58.438,47.006 57.328,45.068 55.755,43.626L58,44.25L58,27L49,24.5L49,41L48,41.049L48,24.5L39,30.5L39,48L39.591,47.606C39.208,48.666 39,49.809 39,51C39,51.548 39.044,52.085 39.129,52.609L38.792,52.833L27.708,49.667L16,54.5L16,27.5L27.708,22.75ZM27,45.25L27,28L20,30.75L20,48L27,45.25ZM28,27.75L28,45L38,47.5L38,30.75L28,27.75Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.map.location" transform="matrix(2.79735,0,0,2.79735,1275.91,3095.45)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M43,38L54,38L54,50L43,61L43,38ZM27.708,23.75L38.792,26.917L48.292,20.583L62,24L62,51L55,49.213L55,44.417L58,45.25L58,28L49,25.5L49,37L48,37L48,25.5L39,31.5L39,49L42,47L42,51.694L38.792,53.833L27.708,50.667L16,55.5L16,28.5L27.708,23.75ZM27,46.25L27,29L20,31.75L20,49L27,46.25ZM28,28.75L28,46L38,48.5L38,31.75L28,28.75Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.tree.pine" transform="matrix(2.79735,0,0,2.79735,883.326,1026.73)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M38,15.833L49.083,31.667L43.7,31.667L52.25,41.167L45.917,41.167L53.833,50.667L41.167,50.667L41.167,58.583L34.833,58.583L34.833,50.667L22.167,50.667L30.083,41.167L23.75,41.167L32.3,31.667L26.917,31.667L38,15.833Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.globe" transform="matrix(2.80341,0,0,2.80341,1344.78,2421.89)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M38,15.833C50.242,15.833 60.167,25.758 60.167,38C60.167,50.242 50.242,60.167 38,60.167C25.758,60.167 15.833,50.242 15.833,38C15.833,25.758 25.758,15.833 38,15.833ZM38,19C37.039,19 36.094,19.071 35.172,19.209C34.974,19.639 34.833,20.111 34.833,20.583C34.833,22.167 33.25,19 31.667,22.167C30.083,25.333 31.667,22.167 31.667,25.333C31.667,26.917 29.375,25.771 30.083,26.125C31.667,26.917 31.667,26.917 30.083,28.5C30.083,28.5 26.917,26.917 26.917,28.5C26.917,30.083 25.333,30.083 23.75,30.083C22.167,30.083 23.75,33.25 22.167,33.25C20.949,33.25 21.604,31.378 20.532,30.513C20.125,31.462 19.793,32.451 19.543,33.472C20.61,34.428 20.789,38.205 22.167,39.583C23.75,38 23.75,39.583 25.333,39.583C26.917,39.583 26.917,39.583 27.708,41.167C29.292,41.167 30.083,42.75 31.667,44.333C33.25,45.917 36.417,45.917 36.417,47.5C36.417,49.083 34.833,47.5 34.833,50.667C34.833,52.25 34.833,52.25 33.25,52.25C32.253,52.25 31.256,54.133 30.654,55.528C32.914,56.476 35.396,57 38,57C43.318,57 48.126,54.815 51.574,51.294L50.667,49.479C50.667,49.479 52.646,46.313 51.063,44.729C49.479,43.146 49.479,41.563 49.479,41.563C49.479,41.563 46.313,44.729 44.729,43.146C43.146,41.563 43.146,43.146 41.563,39.979C39.979,36.813 43.146,35.229 43.146,35.229C43.146,35.229 43.146,32.063 44.729,32.063C46.313,32.063 47.896,28.896 51.063,32.063C51.063,32.063 52.892,30.843 55.481,30.544C54.669,28.643 53.556,26.901 52.202,25.378C51.917,25.582 51.545,25.729 51.063,25.729C49.479,25.729 52.646,28.896 51.063,28.896C49.479,28.896 49.479,27.313 47.896,27.313C46.313,27.313 46.313,28.896 44.729,30.479C43.146,32.063 44.729,30.479 43.146,28.896C41.563,27.313 46.313,28.896 44.729,27.313C43.146,25.729 46.313,25.729 46.313,24.146C46.313,22.904 48.261,22.636 49.101,22.578C48.187,21.92 47.212,21.34 46.313,20.979C47.896,22.563 44.729,24.146 43.146,24.146C41.658,24.146 42.965,21.352 43.129,19.701C41.498,19.244 39.777,19 38,19ZM19,38C19,43.589 21.413,48.613 25.253,52.09L23.75,49.083C22.167,49.083 21.375,45.521 21.375,43.938C21.375,42.667 20.865,41.651 21.482,40.481C19.248,38.238 20.583,39.454 20.583,38C20.583,37.246 19.866,36.493 19.114,35.91C19.039,36.596 19,37.294 19,38Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.drinks.beer.guinness" transform="matrix(2.79735,0,0,2.79735,1302.38,1849.97)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M43.542,56.208L44.333,55.417L31.667,55.417L32.458,56.208L43.542,56.208ZM38,37.604C39.749,37.604 40.771,36.228 40.771,34.042C40.771,31.856 39.749,30.479 38,30.479C36.251,30.479 35.229,31.856 35.229,34.042C35.229,36.228 36.251,37.604 38,37.604ZM38,25.333L45.917,25.333C45.917,23.75 44.729,22.167 44.729,22.167L38,22.167L31.271,22.167C31.271,22.167 30.083,23.75 30.083,25.333L38,25.333ZM38,20.583L47.5,20.583C49.083,23.75 49.083,28.5 49.083,30.083C49.083,42.75 45.917,42.75 45.521,49.083L45.917,57C45.917,58.583 44.333,58.583 44.333,58.583L31.667,58.583C31.667,58.583 30.083,58.583 30.083,57L30.479,49.083C30.083,42.75 26.917,42.75 26.917,30.083C26.917,28.5 26.917,23.75 28.5,20.583L38,20.583ZM45.125,33.25L43.542,33.25C43.104,33.25 42.354,33.604 42.354,34.042C42.354,34.479 43.104,34.833 43.542,34.833L45.125,34.833C45.562,34.833 45.917,34.479 45.917,34.042C45.917,33.604 45.562,33.25 45.125,33.25ZM30.875,33.25C30.438,33.25 30.083,33.604 30.083,34.042C30.083,34.479 30.438,34.833 30.875,34.833L32.458,34.833C32.896,34.833 33.646,34.479 33.646,34.042C33.646,33.604 32.896,33.25 32.458,33.25L30.875,33.25Z" style="fill:rgb(255,253,253);fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.book.hardcover.open" transform="matrix(2.79735,0,0,2.79735,1151.95,2578.2)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M38,29.688C41.167,19 55.417,24.938 55.417,24.938L55.417,26.917L55.417,28.076L58.583,27.313L58.583,51.458C58.583,51.458 41.167,52.25 38,57.792C34.833,52.25 17.417,51.458 17.417,51.458L17.417,27.313L20.583,28.076L20.583,26.917L20.583,24.938C20.583,24.938 34.833,19 38,29.688ZM53.833,47.125L53.833,27.362C49.083,26.917 44.333,23.75 38.792,31.336L38.792,52.216C41.517,48.806 49.41,48.428 53.833,47.125ZM22.167,27.362L22.167,47.125C26.59,48.428 34.483,48.806 37.208,52.216L37.208,31.336C31.667,23.75 26.917,26.917 22.167,27.362Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.book.hardcover.open1" serif:id="appbar.book.hardcover.open" transform="matrix(2.79735,0,0,2.79735,2166.86,3437.45)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M38,29.688C41.167,19 55.417,24.938 55.417,24.938L55.417,26.917L55.417,28.076L58.583,27.313L58.583,51.458C58.583,51.458 41.167,52.25 38,57.792C34.833,52.25 17.417,51.458 17.417,51.458L17.417,27.313L20.583,28.076L20.583,26.917L20.583,24.938C20.583,24.938 34.833,19 38,29.688ZM53.833,47.125L53.833,27.362C49.083,26.917 44.333,23.75 38.792,31.336L38.792,52.216C41.517,48.806 49.41,48.428 53.833,47.125ZM22.167,27.362L22.167,47.125C26.59,48.428 34.483,48.806 37.208,52.216L37.208,31.336C31.667,23.75 26.917,26.917 22.167,27.362Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.language.python2" serif:id="appbar.language.python" transform="matrix(2.48653,0,0,2.48653,2145.4,2653.33)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M53.833,26.917C57.331,26.917 60.167,29.752 60.167,33.25L60.167,42.75C60.167,46.248 57.331,49.083 53.833,49.083L38,49.083C38,49.958 38.709,50.667 39.583,50.667L49.084,50.667L49.084,53.833C49.084,57.331 46.248,60.167 42.75,60.167L33.25,60.167C29.752,60.167 26.917,57.331 26.917,53.833L26.917,45.521C26.917,42.023 29.752,39.188 33.25,39.188L44.333,39.187C47.831,39.187 50.667,36.352 50.667,32.854L50.667,26.917L53.833,26.917ZM44.333,53.042C43.459,53.042 42.75,53.709 42.75,55.021C42.75,56.332 43.459,56.604 44.333,56.604C45.208,56.604 45.917,56.332 45.917,55.021C45.917,53.709 45.208,53.042 44.333,53.042ZM22.167,49.083C18.669,49.083 15.834,46.248 15.834,42.75L15.834,33.25C15.834,29.752 18.669,26.917 22.167,26.917L38,26.917C38,26.042 37.291,25.333 36.417,25.333L26.917,25.333L26.917,22.167C26.917,18.669 29.752,15.833 33.25,15.833L42.75,15.833C46.248,15.833 49.083,18.669 49.083,22.167L49.083,30.479C49.083,33.977 46.248,36.813 42.75,36.813L31.667,36.813C28.169,36.813 25.334,39.648 25.334,43.146L25.334,49.083L22.167,49.083ZM31.667,22.959C32.541,22.959 33.25,22.291 33.25,20.979C33.25,19.668 32.541,19.396 31.667,19.396C30.792,19.396 30.084,19.668 30.084,20.979C30.084,22.291 30.792,22.959 31.667,22.959Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.book.hardcover.open2" serif:id="appbar.book.hardcover.open" transform="matrix(2.79735,0,0,2.79735,2354.21,2779.63)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M38,29.688C41.167,19 55.417,24.938 55.417,24.938L55.417,26.917L55.417,28.076L58.583,27.313L58.583,51.458C58.583,51.458 41.167,52.25 38,57.792C34.833,52.25 17.417,51.458 17.417,51.458L17.417,27.313L20.583,28.076L20.583,26.917L20.583,24.938C20.583,24.938 34.833,19 38,29.688ZM53.833,47.125L53.833,27.362C49.083,26.917 44.333,23.75 38.792,31.336L38.792,52.216C41.517,48.806 49.41,48.428 53.833,47.125ZM22.167,27.362L22.167,47.125C26.59,48.428 34.483,48.806 37.208,52.216L37.208,31.336C31.667,23.75 26.917,26.917 22.167,27.362Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="appbar.location.checkin" transform="matrix(2.79735,0,0,2.79735,1206.25,1375.03)">
+                <g transform="matrix(1,0,0,1,-38,-38)">
+                    <path d="M38,19C42.971,19 47,23.029 47,28C47,30.564 45.928,32.878 38,49C30.072,32.878 29,30.564 29,28C29,23.029 33.029,19 38,19ZM38,24C35.791,24 34,25.791 34,28C34,30.209 35.791,32 38,32C40.209,32 42,30.209 42,28C42,25.791 40.209,24 38,24ZM19,57L24,42L31.5,42L33.5,46L27.664,46L25.332,53L50.668,53L48.336,46L42.5,46L44.5,42L52,42L57,57L19,57Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,50,-2811.22)">
+                <path d="M1901.85,5410.11C1901.85,5407.47 1899.7,5405.32 1897.06,5405.32L1810.98,5405.32C1808.34,5405.32 1806.2,5407.47 1806.2,5410.11L1806.2,5496.79C1806.2,5499.43 1808.34,5501.58 1810.98,5501.58L1897.06,5501.58C1899.7,5501.58 1901.85,5499.43 1901.85,5496.79L1901.85,5410.11Z" style="fill:none;"/>
+                <clipPath id="_clip9">
+                    <path d="M1901.85,5410.11C1901.85,5407.47 1899.7,5405.32 1897.06,5405.32L1810.98,5405.32C1808.34,5405.32 1806.2,5407.47 1806.2,5410.11L1806.2,5496.79C1806.2,5499.43 1808.34,5501.58 1810.98,5501.58L1897.06,5501.58C1899.7,5501.58 1901.85,5499.43 1901.85,5496.79L1901.85,5410.11Z"/>
+                </clipPath>
+                <g clip-path="url(#_clip9)">
+                    <g transform="matrix(1,0,0,1,62.7091,25.8934)">
+                        <text x="1765.95px" y="5466.03px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:58.333px;fill:white;">JS</text>
+                    </g>
+                </g>
+                <path d="M1901.85,5410.11C1901.85,5407.47 1899.7,5405.32 1897.06,5405.32L1810.98,5405.32C1808.34,5405.32 1806.2,5407.47 1806.2,5410.11L1806.2,5496.79C1806.2,5499.43 1808.34,5501.58 1810.98,5501.58L1897.06,5501.58C1899.7,5501.58 1901.85,5499.43 1901.85,5496.79L1901.85,5410.11Z" style="fill:none;stroke:white;stroke-width:8.33px;stroke-linecap:square;"/>
+            </g>
+            <g id="Exercism" transform="matrix(1,0,0,1,50,-2921.22)">
+                <g transform="matrix(1,0,0,1,222.238,304.536)">
+                    <text x="1353.89px" y="5445.13px" style="font-family:'Constantia-Bold', 'Constantia', serif;font-weight:700;font-size:116.667px;fill:white;">{  }</text>
+                </g>
+                <g transform="matrix(1,0,0,1,0,109)">
+                    <path d="M1612.83,5601.85C1612.83,5588.25 1634.72,5588.25 1634.72,5601.85" style="fill:none;stroke:white;stroke-width:5.42px;stroke-linecap:butt;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,43.3933,109)">
+                    <path d="M1612.83,5601.85C1612.83,5588.25 1634.72,5588.25 1634.72,5601.85" style="fill:none;stroke:white;stroke-width:5.42px;stroke-linecap:butt;"/>
+                </g>
+                <g transform="matrix(-0.91299,-1.11809e-16,1.22465e-16,-1,3128.81,11334.7)">
+                    <path d="M1612.83,5601.85C1612.83,5588.25 1634.72,5588.25 1634.72,5601.85" style="fill:none;stroke:white;stroke-width:5.66px;stroke-linecap:square;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="CV">
+        <g transform="matrix(1.00351,0,0,0.0479122,-15.7704,887.664)">
+            <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(187,187,187);"/>
+        </g>
+        <g transform="matrix(1.00351,0,0,0.0479122,-15.7704,647.664)">
+            <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(187,187,187);"/>
+        </g>
+        <g transform="matrix(1.00351,0,0,0.0479122,-15.7704,2605.66)">
+            <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(187,187,187);"/>
+        </g>
+        <g transform="matrix(1.00351,0,0,0.0479122,-15.7704,3555.66)">
+            <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(187,187,187);"/>
+        </g>
+        <g transform="matrix(4.70559e-17,0.768481,-0.0479122,2.93377e-18,1645.91,839.641)">
+            <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(187,187,187);"/>
+        </g>
+        <g id="Education">
+            <g transform="matrix(0.290491,0,0,0.0479122,1673.36,1037.66)">
+                <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(187,187,187);stroke:rgb(187,187,187);stroke-width:4.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,344.857,-262.092)">
+                <text x="1511.56px" y="1308.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">EDUCA<tspan x="1719.76px " y="1308.27px ">T</tspan>ION</text>
+            </g>
+            <g transform="matrix(1,0,0,1,325.009,-269.534)">
+                <text x="1458.7px" y="1465.8px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">2016 - 2020</text>
+                <text x="1376.52px" y="1524.13px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:50px;fill:white;">The Evergreen State College</text>
+                <text x="1376.52px" y="1582.47px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:50px;fill:white;">B.Sci. - Mathematics and T<tspan x="1970.08px " y="1582.47px ">e</tspan>ch</text>
+            </g>
+            <g id="Calendar" transform="matrix(1.04167,0,0,1.04167,944.65,1131.73)">
+                <path d="M768.129,22.001C768.469,22.007 768.808,22.026 769.147,22.065C769.928,22.155 770.699,22.337 771.437,22.608C772.874,23.134 774.182,23.995 775.237,25.102C776.211,26.123 776.965,27.348 777.434,28.678C777.682,29.381 777.85,30.113 777.935,30.853C777.973,31.192 777.993,31.531 777.999,31.871C778.056,40.623 778.056,49.377 777.999,58.129C777.993,58.469 777.973,58.808 777.935,59.147C777.85,59.887 777.682,60.619 777.434,61.322C776.965,62.652 776.211,63.878 775.237,64.898C774.182,66.005 772.874,66.866 771.437,67.392C770.699,67.663 769.928,67.845 769.147,67.935C768.808,67.974 768.469,67.993 768.129,67.999C759.376,68.055 750.623,68.055 741.871,67.999C741.531,67.993 741.192,67.974 740.853,67.935C740.072,67.845 739.301,67.663 738.563,67.392C737.277,66.921 736.093,66.182 735.102,65.237C733.965,64.153 733.088,62.804 732.566,61.322C732.318,60.619 732.15,59.887 732.065,59.147C732.027,58.808 732.007,58.469 732.001,58.129C731.944,49.377 731.944,40.623 732.001,31.871C732.007,31.531 732.027,31.192 732.065,30.853C732.15,30.113 732.318,29.381 732.566,28.678C733.088,27.196 733.965,25.846 735.102,24.763C736.093,23.818 737.277,23.079 738.563,22.608C739.301,22.337 740.072,22.155 740.853,22.065C741.192,22.026 741.531,22.007 741.871,22.001C750.623,21.945 759.376,21.945 768.129,22.001ZM776.022,36L733.978,36C733.945,43.368 733.953,50.736 734.001,58.104C734.006,58.41 734.026,58.715 734.064,59.02C734.135,59.577 734.266,60.127 734.452,60.657C734.87,61.843 735.572,62.923 736.482,63.79C737.275,64.546 738.222,65.137 739.251,65.515C739.841,65.731 740.457,65.876 741.081,65.948C741.352,65.979 741.624,65.994 741.896,65.999C750.632,66.055 759.368,66.055 768.104,65.999C768.376,65.994 768.648,65.979 768.919,65.948C769.543,65.876 770.159,65.731 770.749,65.515C771.899,65.093 772.945,64.404 773.79,63.518C774.569,62.701 775.172,61.721 775.548,60.657C775.746,60.095 775.88,59.511 775.948,58.919C775.979,58.648 775.994,58.376 775.999,58.104C776.047,50.736 776.055,43.368 776.022,36ZM739,57C740.104,57 741,57.896 741,59C741,60.104 740.104,61 739,61C737.896,61 737,60.104 737,59C737,57.896 737.896,57 739,57ZM763,57C764.104,57 765,57.896 765,59C765,60.104 764.104,61 763,61C761.896,61 761,60.104 761,59C761,57.896 761.896,57 763,57ZM747,57C748.104,57 749,57.896 749,59C749,60.104 748.104,61 747,61C745.896,61 745,60.104 745,59C745,57.896 745.896,57 747,57ZM771,57C772.104,57 773,57.896 773,59C773,60.104 772.104,61 771,61C769.896,61 769,60.104 769,59C769,57.896 769.896,57 771,57ZM755,57C756.104,57 757,57.896 757,59C757,60.104 756.104,61 755,61C753.896,61 753,60.104 753,59C753,57.896 753.896,57 755,57ZM763,47C765.208,47 767,48.792 767,51C767,53.208 765.208,55 763,55C760.792,55 759,53.208 759,51C759,48.792 760.792,47 763,47ZM747,49C748.104,49 749,49.896 749,51C749,52.104 748.104,53 747,53C745.896,53 745,52.104 745,51C745,49.896 745.896,49 747,49ZM771,49C772.104,49 773,49.896 773,51C773,52.104 772.104,53 771,53C769.896,53 769,52.104 769,51C769,49.896 769.896,49 771,49ZM739,49C740.104,49 741,49.896 741,51C741,52.104 740.104,53 739,53C737.896,53 737,52.104 737,51C737,49.896 737.896,49 739,49ZM755,49C756.104,49 757,49.896 757,51C757,52.104 756.104,53 755,53C753.896,53 753,52.104 753,51C753,49.896 753.896,49 755,49ZM747,41C748.104,41 749,41.896 749,43C749,44.104 748.104,45 747,45C745.896,45 745,44.104 745,43C745,41.896 745.896,41 747,41ZM771,41C772.104,41 773,41.896 773,43C773,44.104 772.104,45 771,45C769.896,45 769,44.104 769,43C769,41.896 769.896,41 771,41ZM763,41C764.104,41 765,41.896 765,43C765,44.104 764.104,45 763,45C761.896,45 761,44.104 761,43C761,41.896 761.896,41 763,41ZM739,41C740.104,41 741,41.896 741,43C741,44.104 740.104,45 739,45C737.896,45 737,44.104 737,43C737,41.896 737.896,41 739,41ZM755,41C756.104,41 757,41.896 757,43C757,44.104 756.104,45 755,45C753.896,45 753,44.104 753,43C753,41.896 753.896,41 755,41Z" style="fill:white;"/>
+            </g>
+        </g>
+        <g id="Tech">
+            <g id="Math---Data" serif:id="Math &amp; Data">
+            </g>
+            <g id="Backend" transform="matrix(1,0,0,1,-30,-209.589)">
+                <g transform="matrix(1,0,0,1,119.196,-215.6)">
+                    <text x="1586.8px" y="2332.64px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">Backend</text>
+                </g>
+                <g transform="matrix(1,0,0,1,59.4655,32.2901)">
+                    <text x="1668.82px" y="2154.48px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">NodeJS        Python        Django</text>
+                    <text x="1668.82px" y="2221.14px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">P<tspan x="1691.32px " y="2221.14px ">o</tspan>stgresql        Numpy        S<tspan x="2200.29px " y="2221.14px ">y</tspan>mPy</text>
+                    <text x="1668.82px" y="2287.81px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">P<tspan x="1691.32px " y="2287.81px ">a</tspan>ndas        Scikit-Learn</text>
+                </g>
+                <g transform="matrix(1,0,0,1,184.3,100.312)">
+                    <text x="1521.69px" y="2332.64px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">Mathematics</text>
+                </g>
+                <g transform="matrix(1,0,0,1,59.4655,348.201)">
+                    <text x="1668.82px" y="2154.48px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">Multivariable &amp; V<tspan x="1987.61px " y="2154.48px ">e</tspan>ctor Calculus</text>
+                    <text x="1668.82px" y="2221.14px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">Bayesian Inference        Linear Algebra</text>
+                    <text x="1668.82px" y="2287.81px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">Diﬀerential Equations</text>
+                    <text x="1668.82px" y="2354.48px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">Inferential Statistics &amp; R<tspan x="2106.26px " y="2354.48px ">e</tspan>gression</text>
+                </g>
+            </g>
+            <g id="Frontend" transform="matrix(1,0,0,1,-30,0)">
+                <g transform="matrix(1,0,0,1,127.057,-743.155)">
+                    <text x="1578.93px" y="2332.64px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">F<tspan x="1608.16px " y="2332.64px ">r</tspan>ontend</text>
+                </g>
+                <g transform="matrix(1,0,0,1,59.4655,-493.81)">
+                    <text x="1668.82px" y="2154.48px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">R<tspan x="1693.34px " y="2154.48px ">e</tspan>actJS        CSS-in-JS        ES6+</text>
+                    <text x="1668.82px" y="2221.14px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">Q<tspan x="1699.83px " y="2221.14px ">T</tspan> for Python        Aﬃnity Designer</text>
+                    <text x="1668.82px" y="2287.81px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">Plotly</text>
+                </g>
+            </g>
+            <g transform="matrix(0.290491,0,0,0.0479122,1673.36,1424.2)">
+                <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(187,187,187);stroke:rgb(187,187,187);stroke-width:4.8px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,308.732,134.448)">
+                <text x="1482.24px" y="1308.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">TECHNOL<tspan x="1770.36px 1820.62px 1865.02px " y="1308.27px 1308.27px 1308.27px ">OGY</tspan></text>
+            </g>
+        </g>
+        <g id="Summary">
+            <g transform="matrix(1,0,0,1,-86.7983,1617.59)">
+                <text x="205.851px" y="1249.27px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">Consistent Growth:</text>
+                <text x="205.851px" y="1307.61px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Oﬃcial narrative evaluations from professors report consistent growth and exemplary academic</text>
+                <text x="205.851px" y="1365.94px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">performance across disciplines.</text>
+                <text x="205.851px" y="1445.11px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">Depth, Breadth, and S<tspan x="680.806px " y="1445.11px ">y</tspan>nthesis Across Diverse Studies:</text>
+                <text x="205.851px" y="1503.44px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Rigorous engagement with trans-disciplinary practices. Distinguished strength in writing and the arts.</text>
+                <text x="205.851px" y="1561.77px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Depth of study focused in mathematics and scientiﬁc computing.</text>
+                <text x="205.851px" y="1640.94px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">Collaborative P<tspan x="534.553px " y="1640.94px ">r</tspan>oblem Solving:</text>
+                <text x="205.851px" y="1699.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Studied in a diverse learning community that emphasizes collaborative problem solving and teamwork.</text>
+                <text x="205.851px" y="1778.44px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">Independent Learning:</text>
+                <text x="205.851px" y="1836.77px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Successfully navigated a notoriously ambiguous learning environment and received commendations for</text>
+                <text x="205.851px" y="1895.11px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">self-driven engagement with faculty-sponsored independent study contracts.</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-68.0946,-71.307)">
+                <text x="245.228px" y="1249.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Sep. 2019 - Jan. 2020</text>
+                <text x="205.851px" y="1307.61px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">P<tspan x="233.131px " y="1307.61px ">r</tspan>ogram: F<tspan x="439.959px " y="1307.61px ">u</tspan>ll Stack Dev</text>
+                <text x="205.851px" y="1365.94px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Studied data structures, algorithms, architectures and tooling in</text>
+                <text x="205.851px" y="1424.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">front-end and back-end development using Python and JavaScript.</text>
+                <text x="205.851px" y="1482.61px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Invited to become a coding mentor at [ exercism.io ]</text>
+                <text x="245.228px" y="1599.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Sep. 2018 - Jan. 2019</text>
+                <text x="205.851px" y="1657.61px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">P<tspan x="233.131px " y="1657.61px ">r</tspan>ogram: Applied Mathematics</text>
+                <text x="894.325px" y="1657.61px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">(with Laboratory in Python)</text>
+                <text x="205.851px" y="1715.94px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Subjects in advanced applied mathematics &amp; data visualization.</text>
+                <text x="245.228px" y="1832.61px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Jan. 2019 - April 2019</text>
+                <text x="205.851px" y="1890.94px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">Course: P<tspan x="408.046px " y="1890.94px ">r</tspan>ogramming Language Theory &amp; P<tspan x="1157.54px " y="1890.94px ">r</tspan>actice</text>
+                <text x="205.851px" y="1949.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">F<tspan x="226.861px " y="1949.27px ">u</tspan>nctional programming in Haskell.</text>
+                <text x="205.851px" y="2065.94px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">Course: Machine Learning</text>
+                <text x="205.851px" y="2124.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Studied data mining, statistics, and machine learning in Python.</text>
+                <text x="205.851px" y="2240.94px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">R<tspan x="235.214px " y="2240.94px ">e</tspan>search: Experimental Data Vis. in Quantum Optics Lab</text>
+                <text x="205.851px" y="2299.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Built laboratory utilities in Python for interfacing with quantum</text>
+                <text x="205.851px" y="2357.61px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">optics data collection equipment and visualizing captured photons.</text>
+                <text x="245.228px" y="2474.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">April 2019 - June 2019</text>
+                <text x="205.851px" y="2532.61px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:47.917px;fill:white;">P<tspan x="233.131px " y="2532.61px ">r</tspan>ogram: Optimizing Scientiﬁc Computation in Python</text>
+                <text x="205.851px" y="2590.94px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">Studied tooling and methods for optimizing computationally</text>
+                <text x="205.851px" y="2649.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:47.917px;fill:white;">expensive calculations and visualization in scientiﬁc computing.</text>
+            </g>
+            <g id="Calendars" transform="matrix(1,0,0,1,20,-50)">
+                <g id="Calendar1" serif:id="Calendar" transform="matrix(1.04167,0,0,1.04167,-664.302,1160.31)">
+                    <path d="M768.129,22.001C768.469,22.007 768.808,22.026 769.147,22.065C769.928,22.155 770.699,22.337 771.437,22.608C772.874,23.134 774.182,23.995 775.237,25.102C776.211,26.123 776.965,27.348 777.434,28.678C777.682,29.381 777.85,30.113 777.935,30.853C777.973,31.192 777.993,31.531 777.999,31.871C778.056,40.623 778.056,49.377 777.999,58.129C777.993,58.469 777.973,58.808 777.935,59.147C777.85,59.887 777.682,60.619 777.434,61.322C776.965,62.652 776.211,63.878 775.237,64.898C774.182,66.005 772.874,66.866 771.437,67.392C770.699,67.663 769.928,67.845 769.147,67.935C768.808,67.974 768.469,67.993 768.129,67.999C759.376,68.055 750.623,68.055 741.871,67.999C741.531,67.993 741.192,67.974 740.853,67.935C740.072,67.845 739.301,67.663 738.563,67.392C737.277,66.921 736.093,66.182 735.102,65.237C733.965,64.153 733.088,62.804 732.566,61.322C732.318,60.619 732.15,59.887 732.065,59.147C732.027,58.808 732.007,58.469 732.001,58.129C731.944,49.377 731.944,40.623 732.001,31.871C732.007,31.531 732.027,31.192 732.065,30.853C732.15,30.113 732.318,29.381 732.566,28.678C733.088,27.196 733.965,25.846 735.102,24.763C736.093,23.818 737.277,23.079 738.563,22.608C739.301,22.337 740.072,22.155 740.853,22.065C741.192,22.026 741.531,22.007 741.871,22.001C750.623,21.945 759.376,21.945 768.129,22.001ZM776.022,36L733.978,36C733.945,43.368 733.953,50.736 734.001,58.104C734.006,58.41 734.026,58.715 734.064,59.02C734.135,59.577 734.266,60.127 734.452,60.657C734.87,61.843 735.572,62.923 736.482,63.79C737.275,64.546 738.222,65.137 739.251,65.515C739.841,65.731 740.457,65.876 741.081,65.948C741.352,65.979 741.624,65.994 741.896,65.999C750.632,66.055 759.368,66.055 768.104,65.999C768.376,65.994 768.648,65.979 768.919,65.948C769.543,65.876 770.159,65.731 770.749,65.515C771.899,65.093 772.945,64.404 773.79,63.518C774.569,62.701 775.172,61.721 775.548,60.657C775.746,60.095 775.88,59.511 775.948,58.919C775.979,58.648 775.994,58.376 775.999,58.104C776.047,50.736 776.055,43.368 776.022,36ZM739,57C740.104,57 741,57.896 741,59C741,60.104 740.104,61 739,61C737.896,61 737,60.104 737,59C737,57.896 737.896,57 739,57ZM763,57C764.104,57 765,57.896 765,59C765,60.104 764.104,61 763,61C761.896,61 761,60.104 761,59C761,57.896 761.896,57 763,57ZM747,57C748.104,57 749,57.896 749,59C749,60.104 748.104,61 747,61C745.896,61 745,60.104 745,59C745,57.896 745.896,57 747,57ZM771,57C772.104,57 773,57.896 773,59C773,60.104 772.104,61 771,61C769.896,61 769,60.104 769,59C769,57.896 769.896,57 771,57ZM755,57C756.104,57 757,57.896 757,59C757,60.104 756.104,61 755,61C753.896,61 753,60.104 753,59C753,57.896 753.896,57 755,57ZM763,47C765.208,47 767,48.792 767,51C767,53.208 765.208,55 763,55C760.792,55 759,53.208 759,51C759,48.792 760.792,47 763,47ZM747,49C748.104,49 749,49.896 749,51C749,52.104 748.104,53 747,53C745.896,53 745,52.104 745,51C745,49.896 745.896,49 747,49ZM771,49C772.104,49 773,49.896 773,51C773,52.104 772.104,53 771,53C769.896,53 769,52.104 769,51C769,49.896 769.896,49 771,49ZM739,49C740.104,49 741,49.896 741,51C741,52.104 740.104,53 739,53C737.896,53 737,52.104 737,51C737,49.896 737.896,49 739,49ZM755,49C756.104,49 757,49.896 757,51C757,52.104 756.104,53 755,53C753.896,53 753,52.104 753,51C753,49.896 753.896,49 755,49ZM747,41C748.104,41 749,41.896 749,43C749,44.104 748.104,45 747,45C745.896,45 745,44.104 745,43C745,41.896 745.896,41 747,41ZM771,41C772.104,41 773,41.896 773,43C773,44.104 772.104,45 771,45C769.896,45 769,44.104 769,43C769,41.896 769.896,41 771,41ZM763,41C764.104,41 765,41.896 765,43C765,44.104 764.104,45 763,45C761.896,45 761,44.104 761,43C761,41.896 761.896,41 763,41ZM739,41C740.104,41 741,41.896 741,43C741,44.104 740.104,45 739,45C737.896,45 737,44.104 737,43C737,41.896 737.896,41 739,41ZM755,41C756.104,41 757,41.896 757,43C757,44.104 756.104,45 755,45C753.896,45 753,44.104 753,43C753,41.896 753.896,41 755,41Z" style="fill:white;"/>
+                </g>
+                <g id="Calendar2" serif:id="Calendar" transform="matrix(1.04167,0,0,1.04167,-663.136,2385.97)">
+                    <path d="M768.129,22.001C768.469,22.007 768.808,22.026 769.147,22.065C769.928,22.155 770.699,22.337 771.437,22.608C772.874,23.134 774.182,23.995 775.237,25.102C776.211,26.123 776.965,27.348 777.434,28.678C777.682,29.381 777.85,30.113 777.935,30.853C777.973,31.192 777.993,31.531 777.999,31.871C778.056,40.623 778.056,49.377 777.999,58.129C777.993,58.469 777.973,58.808 777.935,59.147C777.85,59.887 777.682,60.619 777.434,61.322C776.965,62.652 776.211,63.878 775.237,64.898C774.182,66.005 772.874,66.866 771.437,67.392C770.699,67.663 769.928,67.845 769.147,67.935C768.808,67.974 768.469,67.993 768.129,67.999C759.376,68.055 750.623,68.055 741.871,67.999C741.531,67.993 741.192,67.974 740.853,67.935C740.072,67.845 739.301,67.663 738.563,67.392C737.277,66.921 736.093,66.182 735.102,65.237C733.965,64.153 733.088,62.804 732.566,61.322C732.318,60.619 732.15,59.887 732.065,59.147C732.027,58.808 732.007,58.469 732.001,58.129C731.944,49.377 731.944,40.623 732.001,31.871C732.007,31.531 732.027,31.192 732.065,30.853C732.15,30.113 732.318,29.381 732.566,28.678C733.088,27.196 733.965,25.846 735.102,24.763C736.093,23.818 737.277,23.079 738.563,22.608C739.301,22.337 740.072,22.155 740.853,22.065C741.192,22.026 741.531,22.007 741.871,22.001C750.623,21.945 759.376,21.945 768.129,22.001ZM776.022,36L733.978,36C733.945,43.368 733.953,50.736 734.001,58.104C734.006,58.41 734.026,58.715 734.064,59.02C734.135,59.577 734.266,60.127 734.452,60.657C734.87,61.843 735.572,62.923 736.482,63.79C737.275,64.546 738.222,65.137 739.251,65.515C739.841,65.731 740.457,65.876 741.081,65.948C741.352,65.979 741.624,65.994 741.896,65.999C750.632,66.055 759.368,66.055 768.104,65.999C768.376,65.994 768.648,65.979 768.919,65.948C769.543,65.876 770.159,65.731 770.749,65.515C771.899,65.093 772.945,64.404 773.79,63.518C774.569,62.701 775.172,61.721 775.548,60.657C775.746,60.095 775.88,59.511 775.948,58.919C775.979,58.648 775.994,58.376 775.999,58.104C776.047,50.736 776.055,43.368 776.022,36ZM739,57C740.104,57 741,57.896 741,59C741,60.104 740.104,61 739,61C737.896,61 737,60.104 737,59C737,57.896 737.896,57 739,57ZM763,57C764.104,57 765,57.896 765,59C765,60.104 764.104,61 763,61C761.896,61 761,60.104 761,59C761,57.896 761.896,57 763,57ZM747,57C748.104,57 749,57.896 749,59C749,60.104 748.104,61 747,61C745.896,61 745,60.104 745,59C745,57.896 745.896,57 747,57ZM771,57C772.104,57 773,57.896 773,59C773,60.104 772.104,61 771,61C769.896,61 769,60.104 769,59C769,57.896 769.896,57 771,57ZM755,57C756.104,57 757,57.896 757,59C757,60.104 756.104,61 755,61C753.896,61 753,60.104 753,59C753,57.896 753.896,57 755,57ZM763,47C765.208,47 767,48.792 767,51C767,53.208 765.208,55 763,55C760.792,55 759,53.208 759,51C759,48.792 760.792,47 763,47ZM747,49C748.104,49 749,49.896 749,51C749,52.104 748.104,53 747,53C745.896,53 745,52.104 745,51C745,49.896 745.896,49 747,49ZM771,49C772.104,49 773,49.896 773,51C773,52.104 772.104,53 771,53C769.896,53 769,52.104 769,51C769,49.896 769.896,49 771,49ZM739,49C740.104,49 741,49.896 741,51C741,52.104 740.104,53 739,53C737.896,53 737,52.104 737,51C737,49.896 737.896,49 739,49ZM755,49C756.104,49 757,49.896 757,51C757,52.104 756.104,53 755,53C753.896,53 753,52.104 753,51C753,49.896 753.896,49 755,49ZM747,41C748.104,41 749,41.896 749,43C749,44.104 748.104,45 747,45C745.896,45 745,44.104 745,43C745,41.896 745.896,41 747,41ZM771,41C772.104,41 773,41.896 773,43C773,44.104 772.104,45 771,45C769.896,45 769,44.104 769,43C769,41.896 769.896,41 771,41ZM763,41C764.104,41 765,41.896 765,43C765,44.104 764.104,45 763,45C761.896,45 761,44.104 761,43C761,41.896 761.896,41 763,41ZM739,41C740.104,41 741,41.896 741,43C741,44.104 740.104,45 739,45C737.896,45 737,44.104 737,43C737,41.896 737.896,41 739,41ZM755,41C756.104,41 757,41.896 757,43C757,44.104 756.104,45 755,45C753.896,45 753,44.104 753,43C753,41.896 753.896,41 755,41Z" style="fill:white;"/>
+                </g>
+                <g id="Calendar3" serif:id="Calendar" transform="matrix(1.04167,0,0,1.04167,-664.302,1743.5)">
+                    <path d="M768.129,22.001C768.469,22.007 768.808,22.026 769.147,22.065C769.928,22.155 770.699,22.337 771.437,22.608C772.874,23.134 774.182,23.995 775.237,25.102C776.211,26.123 776.965,27.348 777.434,28.678C777.682,29.381 777.85,30.113 777.935,30.853C777.973,31.192 777.993,31.531 777.999,31.871C778.056,40.623 778.056,49.377 777.999,58.129C777.993,58.469 777.973,58.808 777.935,59.147C777.85,59.887 777.682,60.619 777.434,61.322C776.965,62.652 776.211,63.878 775.237,64.898C774.182,66.005 772.874,66.866 771.437,67.392C770.699,67.663 769.928,67.845 769.147,67.935C768.808,67.974 768.469,67.993 768.129,67.999C759.376,68.055 750.623,68.055 741.871,67.999C741.531,67.993 741.192,67.974 740.853,67.935C740.072,67.845 739.301,67.663 738.563,67.392C737.277,66.921 736.093,66.182 735.102,65.237C733.965,64.153 733.088,62.804 732.566,61.322C732.318,60.619 732.15,59.887 732.065,59.147C732.027,58.808 732.007,58.469 732.001,58.129C731.944,49.377 731.944,40.623 732.001,31.871C732.007,31.531 732.027,31.192 732.065,30.853C732.15,30.113 732.318,29.381 732.566,28.678C733.088,27.196 733.965,25.846 735.102,24.763C736.093,23.818 737.277,23.079 738.563,22.608C739.301,22.337 740.072,22.155 740.853,22.065C741.192,22.026 741.531,22.007 741.871,22.001C750.623,21.945 759.376,21.945 768.129,22.001ZM776.022,36L733.978,36C733.945,43.368 733.953,50.736 734.001,58.104C734.006,58.41 734.026,58.715 734.064,59.02C734.135,59.577 734.266,60.127 734.452,60.657C734.87,61.843 735.572,62.923 736.482,63.79C737.275,64.546 738.222,65.137 739.251,65.515C739.841,65.731 740.457,65.876 741.081,65.948C741.352,65.979 741.624,65.994 741.896,65.999C750.632,66.055 759.368,66.055 768.104,65.999C768.376,65.994 768.648,65.979 768.919,65.948C769.543,65.876 770.159,65.731 770.749,65.515C771.899,65.093 772.945,64.404 773.79,63.518C774.569,62.701 775.172,61.721 775.548,60.657C775.746,60.095 775.88,59.511 775.948,58.919C775.979,58.648 775.994,58.376 775.999,58.104C776.047,50.736 776.055,43.368 776.022,36ZM739,57C740.104,57 741,57.896 741,59C741,60.104 740.104,61 739,61C737.896,61 737,60.104 737,59C737,57.896 737.896,57 739,57ZM763,57C764.104,57 765,57.896 765,59C765,60.104 764.104,61 763,61C761.896,61 761,60.104 761,59C761,57.896 761.896,57 763,57ZM747,57C748.104,57 749,57.896 749,59C749,60.104 748.104,61 747,61C745.896,61 745,60.104 745,59C745,57.896 745.896,57 747,57ZM771,57C772.104,57 773,57.896 773,59C773,60.104 772.104,61 771,61C769.896,61 769,60.104 769,59C769,57.896 769.896,57 771,57ZM755,57C756.104,57 757,57.896 757,59C757,60.104 756.104,61 755,61C753.896,61 753,60.104 753,59C753,57.896 753.896,57 755,57ZM763,47C765.208,47 767,48.792 767,51C767,53.208 765.208,55 763,55C760.792,55 759,53.208 759,51C759,48.792 760.792,47 763,47ZM747,49C748.104,49 749,49.896 749,51C749,52.104 748.104,53 747,53C745.896,53 745,52.104 745,51C745,49.896 745.896,49 747,49ZM771,49C772.104,49 773,49.896 773,51C773,52.104 772.104,53 771,53C769.896,53 769,52.104 769,51C769,49.896 769.896,49 771,49ZM739,49C740.104,49 741,49.896 741,51C741,52.104 740.104,53 739,53C737.896,53 737,52.104 737,51C737,49.896 737.896,49 739,49ZM755,49C756.104,49 757,49.896 757,51C757,52.104 756.104,53 755,53C753.896,53 753,52.104 753,51C753,49.896 753.896,49 755,49ZM747,41C748.104,41 749,41.896 749,43C749,44.104 748.104,45 747,45C745.896,45 745,44.104 745,43C745,41.896 745.896,41 747,41ZM771,41C772.104,41 773,41.896 773,43C773,44.104 772.104,45 771,45C769.896,45 769,44.104 769,43C769,41.896 769.896,41 771,41ZM763,41C764.104,41 765,41.896 765,43C765,44.104 764.104,45 763,45C761.896,45 761,44.104 761,43C761,41.896 761.896,41 763,41ZM739,41C740.104,41 741,41.896 741,43C741,44.104 740.104,45 739,45C737.896,45 737,44.104 737,43C737,41.896 737.896,41 739,41ZM755,41C756.104,41 757,41.896 757,43C757,44.104 756.104,45 755,45C753.896,45 753,44.104 753,43C753,41.896 753.896,41 755,41Z" style="fill:white;"/>
+                </g>
+                <g id="Calendar4" serif:id="Calendar" transform="matrix(1.04167,0,0,1.04167,-663.688,1510.51)">
+                    <path d="M768.129,22.001C768.469,22.007 768.808,22.026 769.147,22.065C769.928,22.155 770.699,22.337 771.437,22.608C772.874,23.134 774.182,23.995 775.237,25.102C776.211,26.123 776.965,27.348 777.434,28.678C777.682,29.381 777.85,30.113 777.935,30.853C777.973,31.192 777.993,31.531 777.999,31.871C778.056,40.623 778.056,49.377 777.999,58.129C777.993,58.469 777.973,58.808 777.935,59.147C777.85,59.887 777.682,60.619 777.434,61.322C776.965,62.652 776.211,63.878 775.237,64.898C774.182,66.005 772.874,66.866 771.437,67.392C770.699,67.663 769.928,67.845 769.147,67.935C768.808,67.974 768.469,67.993 768.129,67.999C759.376,68.055 750.623,68.055 741.871,67.999C741.531,67.993 741.192,67.974 740.853,67.935C740.072,67.845 739.301,67.663 738.563,67.392C737.277,66.921 736.093,66.182 735.102,65.237C733.965,64.153 733.088,62.804 732.566,61.322C732.318,60.619 732.15,59.887 732.065,59.147C732.027,58.808 732.007,58.469 732.001,58.129C731.944,49.377 731.944,40.623 732.001,31.871C732.007,31.531 732.027,31.192 732.065,30.853C732.15,30.113 732.318,29.381 732.566,28.678C733.088,27.196 733.965,25.846 735.102,24.763C736.093,23.818 737.277,23.079 738.563,22.608C739.301,22.337 740.072,22.155 740.853,22.065C741.192,22.026 741.531,22.007 741.871,22.001C750.623,21.945 759.376,21.945 768.129,22.001ZM776.022,36L733.978,36C733.945,43.368 733.953,50.736 734.001,58.104C734.006,58.41 734.026,58.715 734.064,59.02C734.135,59.577 734.266,60.127 734.452,60.657C734.87,61.843 735.572,62.923 736.482,63.79C737.275,64.546 738.222,65.137 739.251,65.515C739.841,65.731 740.457,65.876 741.081,65.948C741.352,65.979 741.624,65.994 741.896,65.999C750.632,66.055 759.368,66.055 768.104,65.999C768.376,65.994 768.648,65.979 768.919,65.948C769.543,65.876 770.159,65.731 770.749,65.515C771.899,65.093 772.945,64.404 773.79,63.518C774.569,62.701 775.172,61.721 775.548,60.657C775.746,60.095 775.88,59.511 775.948,58.919C775.979,58.648 775.994,58.376 775.999,58.104C776.047,50.736 776.055,43.368 776.022,36ZM739,57C740.104,57 741,57.896 741,59C741,60.104 740.104,61 739,61C737.896,61 737,60.104 737,59C737,57.896 737.896,57 739,57ZM763,57C764.104,57 765,57.896 765,59C765,60.104 764.104,61 763,61C761.896,61 761,60.104 761,59C761,57.896 761.896,57 763,57ZM747,57C748.104,57 749,57.896 749,59C749,60.104 748.104,61 747,61C745.896,61 745,60.104 745,59C745,57.896 745.896,57 747,57ZM771,57C772.104,57 773,57.896 773,59C773,60.104 772.104,61 771,61C769.896,61 769,60.104 769,59C769,57.896 769.896,57 771,57ZM755,57C756.104,57 757,57.896 757,59C757,60.104 756.104,61 755,61C753.896,61 753,60.104 753,59C753,57.896 753.896,57 755,57ZM763,47C765.208,47 767,48.792 767,51C767,53.208 765.208,55 763,55C760.792,55 759,53.208 759,51C759,48.792 760.792,47 763,47ZM747,49C748.104,49 749,49.896 749,51C749,52.104 748.104,53 747,53C745.896,53 745,52.104 745,51C745,49.896 745.896,49 747,49ZM771,49C772.104,49 773,49.896 773,51C773,52.104 772.104,53 771,53C769.896,53 769,52.104 769,51C769,49.896 769.896,49 771,49ZM739,49C740.104,49 741,49.896 741,51C741,52.104 740.104,53 739,53C737.896,53 737,52.104 737,51C737,49.896 737.896,49 739,49ZM755,49C756.104,49 757,49.896 757,51C757,52.104 756.104,53 755,53C753.896,53 753,52.104 753,51C753,49.896 753.896,49 755,49ZM747,41C748.104,41 749,41.896 749,43C749,44.104 748.104,45 747,45C745.896,45 745,44.104 745,43C745,41.896 745.896,41 747,41ZM771,41C772.104,41 773,41.896 773,43C773,44.104 772.104,45 771,45C769.896,45 769,44.104 769,43C769,41.896 769.896,41 771,41ZM763,41C764.104,41 765,41.896 765,43C765,44.104 764.104,45 763,45C761.896,45 761,44.104 761,43C761,41.896 761.896,41 763,41ZM739,41C740.104,41 741,41.896 741,43C741,44.104 740.104,45 739,45C737.896,45 737,44.104 737,43C737,41.896 737.896,41 739,41ZM755,41C756.104,41 757,41.896 757,43C757,44.104 756.104,45 755,45C753.896,45 753,44.104 753,43C753,41.896 753.896,41 755,41Z" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,74.1961,-37.5179)">
+            <g id="Other-Experience" serif:id="Other Experience">
+                <g>
+                    <text x="464.893px" y="838.767px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:58.333px;fill:white;">Skilled follower<tspan x="851.522px " y="838.767px ">,</tspan> groupwork facilitator<tspan x="1414.4px " y="838.767px ">,</tspan> and academic at</text>
+                    <text x="518.641px" y="905.434px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:58.333px;fill:white;">the intersection of data, development, and design.</text>
+                </g>
+            </g>
+        </g>
+        <g id="Experience">
+            <g transform="matrix(0.604221,0,0,0.0479122,37.5437,1034.37)">
+                <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(187,187,187);stroke:rgb(187,187,187);stroke-width:2.33px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-869.939,-265.388)">
+                <text x="1339.96px" y="1308.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">A<tspan x="1381.95px " y="1308.27px ">C</tspan>ADEMIC EXPERIENCE</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-453.673,1483.01)">
+                <text x="1531.72px" y="1308.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">SUMMARY</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-453.673,2417.83)">
+                <text x="1552.57px" y="1308.27px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">TIMELINE</text>
+            </g>
+        </g>
+    </g>
+    <g id="Header-Block" serif:id="Header Block">
+        <g id="appbar.home.location.pin" transform="matrix(2.50694,0,0,2.26716,1240.09,503.93)">
+            <g transform="matrix(1,0,0,1,-38.0053,-38.0053)">
+                <path d="M20.003,56.008L20.003,38.005L18.003,40.006L15.003,35.005L34.005,20.003L41.006,25.53L41.006,21.753L45.007,21.003L45.007,28.688L53.008,35.005L50.008,40.006L48.007,38.005L48.007,56.008L20.003,56.008ZM34.005,26.921L23.004,36.005L23.004,53.007L29.005,53.007L29.005,42.006L39.006,42.006L39.006,53.007L45.007,53.007L45.007,36.005L34.005,26.921ZM57.508,56.508L56.008,53.471L56.008,43.75C54.26,43.132 53.008,41.465 53.008,39.506C53.008,37.02 55.023,35.005 57.509,35.005C59.994,35.005 62.009,37.02 62.009,39.506C62.009,41.465 60.757,43.132 59.009,43.75L59.009,53.507L57.508,56.508Z" style="fill:white;fill-rule:nonzero;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,294.536,42.3445)">
+            <text x="836.458px" y="345.723px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:66.667px;fill:white;">JR. DEV</text>
+        </g>
+        <g transform="matrix(1,0,0,1,525.223,41.3883)">
+            <text x="396.445px" y="208.581px" style="font-family:'Merriweather', serif;font-size:125px;fill:white;">Allen Hart</text>
+        </g>
+        <g transform="matrix(0.396124,0,0,0.0479122,65.2626,307.664)">
+            <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(134,134,134);"/>
+        </g>
+        <g transform="matrix(0.396124,0,0,0.0479122,1423.26,307.664)">
+            <rect x="133.412" y="1075.91" width="2236.24" height="123.257" style="fill:rgb(134,134,134);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,925.132,63.005)">
+            <text x="185.936px" y="531.349px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">Pittsburgh, P<tspan x="418.501px " y="531.349px ">A</tspan></text>
+            <text x="172.631px" y="573.016px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">Wilmington, DE</text>
+        </g>
+        <g transform="matrix(1,0,0,1,258.563,67.2989)">
+            <text x="68.134px" y="531.349px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">github<tspan x="187.702px " y="531.349px ">.</tspan>com/clockelliptic</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1648.11,72.2631)">
+            <text x="41.076px" y="531.349px" style="font-family:'YuGothicUI-Regular', 'Yu Gothic UI', sans-serif;font-size:41.667px;fill:white;">linkedin.com/in/allen-hart/</text>
+        </g>
+        <g id="appbar.social.github.octocat.solid" transform="matrix(2.39906,0,0,2.39906,546.452,506.224)">
+            <g transform="matrix(1,0,0,1,-38,-38)">
+                <path d="M49.416,19C50.061,20.465 50.479,22.897 49.856,24.679C52.405,26.855 53.282,32.148 52.051,36.472C55.685,36.75 60.013,36.339 62.807,37.455C60.195,37.119 56.629,36.46 53.259,36.69C52.621,36.733 51.675,36.665 51.722,37.563C55.621,37.869 59.497,38.203 62.699,39.202C59.523,38.683 55.668,37.893 51.722,37.783C50.092,41 46.811,42.58 42.282,42.913C42.769,43.973 43.701,44.376 43.929,46.08C44.269,48.626 43.398,52.354 44.257,54.051C44.669,54.864 45.341,54.886 45.794,55.58C44.685,56.894 41.936,55.434 41.622,54.051C41.086,51.684 42.439,48.013 40.964,46.408C41.069,48.99 40.354,52.617 41.074,54.924C41.358,55.832 42.178,56.182 41.953,57C36.798,57.524 38.951,50.327 38.109,46.08C37.332,46.136 37.673,47.245 37.671,47.718C37.648,51.866 38.519,57.555 34.049,57C33.917,56.129 34.648,55.832 34.926,55.036C35.743,52.702 34.773,49.224 35.148,46.408C33.442,47.694 35.327,52.185 34.27,54.488C33.66,55.813 31.697,56.39 30.208,55.798C30.402,54.811 31.422,54.97 31.853,54.051C32.458,52.769 31.858,50.923 32.074,49.029C28.915,49.659 26.466,48.937 25.268,46.954C24.731,46.063 24.598,45.013 23.949,44.224C23.304,43.435 22.274,43.329 21.975,42.26C25.886,41.318 26.036,46.285 29.549,46.408C30.626,46.447 31.186,46.096 32.183,45.863C32.462,44.61 33.06,43.676 33.939,43.022C29.569,42.424 25.959,41.063 24.28,37.783C20.306,37.978 16.67,38.509 13.302,39.31C16.359,38.2 20.13,37.802 24.17,37.672C23.932,36.24 21.845,36.634 20.548,36.69C18.14,36.796 15.108,37.095 13.193,37.455C15.969,36.465 19.862,36.589 23.622,36.581C22.472,32.976 22.871,27.249 25.378,25.116C24.668,23.325 24.888,20.395 25.818,19C28.617,19.126 30.315,20.347 32.074,21.513C34.256,20.892 36.549,20.584 39.538,20.747C40.795,20.817 42.103,21.382 43.049,21.293C43.978,21.206 45.002,20.163 45.903,19.765C47.079,19.246 48.073,19.048 49.416,19Z" style="fill:white;fill-rule:nonzero;"/>
+            </g>
+        </g>
+        <g id="appbar.social.linkedin.variant" transform="matrix(1.9094,0,0,1.9094,1935.46,501.93)">
+            <g transform="matrix(1,0,0,1,-38,-38)">
+                <path d="M39.398,36.138L39.435,36.084L39.435,36.138M51.218,50.808L45.478,50.808L45.478,41.629C45.478,39.322 44.646,37.749 42.571,37.749C40.983,37.749 40.04,38.81 39.626,39.835C39.473,40.202 39.435,40.714 39.435,41.226L39.435,50.808L33.696,50.808C33.696,50.808 33.772,35.261 33.696,33.652L39.435,33.652L39.435,36.084C40.197,34.915 41.559,33.248 44.607,33.248C48.385,33.248 51.218,35.699 51.218,40.971M27.651,31.308L27.612,31.308C25.687,31.308 24.439,29.991 24.439,28.343C24.439,26.661 25.724,25.38 27.687,25.38C29.651,25.38 30.859,26.661 30.897,28.343C30.897,29.991 29.651,31.308 27.651,31.308ZM30.521,50.808L24.779,50.808L24.779,33.652L30.521,33.652M54.194,19L21.808,19C20.258,19 19,20.219 19,21.722L19,54.276C19,55.78 20.258,57 21.808,57L54.194,57C55.745,57 57,55.78 57,54.276L57,21.722C57,20.219 55.745,19 54.194,19Z" style="fill:white;fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+    "title":"Personal Portfolio",
+    "description":"You're lookin' at it! A personal portfolio of mine, built with React and a few associated libraries. Custom-built fullpage virtual scrolling. Uses a CORS proxy to fetch portfolio item data from GitHub. Take it, break it, and make it your own!",
+    "tags":{
+       "languages":[
+          "javascript"
+       ],
+       "tooling":[
+          "react", "redux", "styled-components", "grommet", "react-lazyload", "affinity designer"
+       ],
+       "keywords":[
+          "lazy loading", "CORS", "component-based", "ui design", "portfolio", "svg", "mathematics", "physics"
+       ]
+    },
+    "n_images":2
+ }

@@ -13,10 +13,9 @@ export default class SlideNav extends React.Component {
             curPage = this.props.curPage,
             nextPage = Number(curPage)+1,
             prevPage = curPage-1;
-        console.log(curPage, nextPage, prevPage)
         const PageDownButton = () => (
             <NavButton direction='down' display={this.props.showDownButton}>
-                <Down id="PageDownButton" from={curPage} to={nextPage} size='large' style={{"margin":"8px 0 0 0", "pointerEvents": "all"}} />
+                <Down id="PageDownButton" from={curPage} to={nextPage} size='large' style={{"margin":"8px 0 0 0"}} />
             </NavButton>
         )
 
@@ -52,16 +51,14 @@ class NavButton extends React.PureComponent {
             transition: all 0.1s ease-in;
             animation: ${(this.props.animate) ? `${PulseAnimation} 3.0s ease-in-out infinite` : `none` };
             :hover {
-                background: rgba(70,195,185,0.8);
                 opacity: 0.9;
             }
             :active {
-                background: rgba(170,195,185,0.8);
+                background: rgba(170,195,185,0.2);
                 opacity: 0.9;
             }
-            > * {
+            > * > polyline {
                 pointer-events: none;
-                z-index: -1;
             }
         `;
 
